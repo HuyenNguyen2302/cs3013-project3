@@ -5,17 +5,17 @@
 #include <unistd.h>
 
 pthread_mutex_t mutex;
-pthread_cond_t cond_cust;
-pthread_cond_t cond_chefs[NUM_CHEFS];
+pthread_cond_t cond_cust, cond_chefs;
 int kitchen[NUM_STATIONS];
 pthread_t p_chefs[NUM_CHEFS];
 
+char *station_names[NUM_STATIONS];
 int order_end_i;
 int order_start_i;
 int ordering;
 int closed;
 int num_worker_off;
-int orders[MAX_ORDERS];
+int orders[NUM_ORDERS];
 int *chef_num[NUM_CHEFS];
 
 struct recipe recipes[NUM_RECIPES];
@@ -29,25 +29,65 @@ void *customer(void *ptr) {
   order_end_i = 0;
   order_start_i = 0;
 
-  for (i = 0; i < MAX_ORDERS; i++) {
+  for (i = 0; i < NUM_ORDERS; i++) {
     recipe_type = random() % NUM_RECIPES;
-    pthread_mutex_lock(mutex);
+    pthread_mutex_lock(&mutex);
     order_end_i++;
     orders[order_end_i] = recipe_type;
-    pthread_mutex_unlock(mutex);
-    printf("Order %d (Recipe %d) has arrived.\n", i + 1, recipe_type + 1);
+    pthread_mutex_unlock(&mutex);
+    pthread_cond_broadcast(&cond_chefs);
     ms = random() % MAX_TIME;
     usleep(ms);
   }
 
   ordering = 0;
-  puts("Press q to exit");
   pthread_exit(0);
 }
 
 void *chef(void *ptr) {
-  printf("Chef %d get to work.\n", *((int *)ptr));
+  int i;
+  struct stage st;
+  int start;
+  int end;
+  int id;
+  int rp_type;
+  struct recipe rp;
+  id = *((int *)ptr);
+
+  printf("Chef %d get to work.\n", id + 1);
   while (1) {
+    i = 0;
+
+    pthread_mutex_lock(&mutex);
+
+    while (order_end_i - order_start_i <= 0)
+      pthread_cond_wait(&cond_chefs, &mutex);
+
+    rp_type = orders[start];
+    printf("Order %d (Recipe %d) has arrived.\n", start + 1, rp_type + 1);
+
+    rp = recipes[rp_type];
+    start = order_start_i;
+    order_start_i++;
+    pthread_mutex_unlock(&mutex);
+
+    for (i = 0; i < rp.num_stages; i++) {
+      pthread_mutex_lock(&mutex);
+      while (kitchen[st.type] == 1)
+        pthread_cond_wait(&cond_chefs, &mutex);
+
+      st = rp.stages[i];
+      kitchen[st.type] = 1;
+      printf("Chef %d has begun to %s order %d (Recipe %d).\n", id + 1,
+             station_names[st.type], start + 1, rp_type + 1);
+      pthread_mutex_unlock(&mutex);
+
+      usleep(st.time * ONE_SECOND);
+      pthread_mutex_lock(&mutex);
+      kitchen[st.type] = 0;
+      pthread_mutex_unlock(&mutex);
+      pthread_cond_broadcast(&cond_chefs);
+    }
   }
   pthread_exit(0);
 }
@@ -173,11 +213,19 @@ void init_kitchen() {
   for (i = 0; i < NUM_STATIONS; i++) {
     kitchen[i] = 0;
   }
+
+  // Initialize station names
+  station_names[STATION_STOVE] = STATION_NAME_STOVE;
+  station_names[STATION_OVEN] = STATION_NAME_OVEN;
+  station_names[STATION_PREP] = STATION_NAME_PREP;
+  station_names[STATION_SINK] = STATION_NAME_STOVE;
 }
 
 int main(int argc, char *argv[]) {
   char cmd;
   pthread_t cust;
+
+  puts("Press q to exit");
 
   closed = 0;
   num_worker_off = 0;
