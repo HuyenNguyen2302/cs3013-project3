@@ -2,8 +2,8 @@
 
 int main(int argc, char *argv[]) {
 	init_recipe();
-	init_chef();
 	init_sem();
+	init_chef();
 
 	// get number of orders from user
 	if (argc != 2) {
@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
 			printf("Order %d (recipe %d) has arrived.\n", i + 1, recipe + 1);
 			for (j = 0; j < CHEF_NUM; j++) {
 				if (state[j] == FREE) {
-					printf("Chef %d has begun to prepare Order %d (recipe %d)\n", j, i + 1, recipe + 1);
+					printf("Chef %d has begun to prepare Order %d (recipe %d)\n", j + 1, i + 1, recipe + 1);
 					work(j, recipe);	
 					state[j] = FREE;
 					break;			
@@ -32,9 +32,9 @@ int main(int argc, char *argv[]) {
 void work(int chef, int recipe) {
 	Recipe recipe_struct = recipes[recipe];	
 	int i, step_duration;
-	for (i = 0; i < recipe_struct[0]; i++) {
+	for (i = 0; i < recipe_struct.step_num; i++) {
 		step_duration = (recipe_struct.duration[i]) * 1000;
-		switch(recipe.step[i]) {
+		switch(recipe_struct.step[i]) {
 			case PREP:
 				enter_prep(chef, recipe, step_duration);
 				break;
@@ -76,14 +76,15 @@ void enter_sink(int chef, int recipe, int step_duration) {
 }
 
 void *create_chef(void *agrv) {
-	struct thread_info *tinfo = argv;
-	printf("Thread %d is created.\n", tinfo -> thread_num);
+	// struct thread_info *tinfo = argv;
+	// printf("Thread %d is created.\n", tinfo -> thread_num);
+	printf("A chef is created.\n");
 	return NULL;
 }
 
 void init_chef() {
 	int i;
-	for (i = 0; i < CHEF_NUM; i++) {
+	for (i = 0; i < CHEF_NUM; i++)
 		state[i] = FREE;
 	pthread_create(&chef1, NULL, create_chef, NULL);
 	pthread_create(&chef2, NULL, create_chef, NULL);
