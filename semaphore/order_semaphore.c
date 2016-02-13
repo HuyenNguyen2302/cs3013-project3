@@ -1,17 +1,23 @@
 #include "order_semaphore.h"
 
 int main(int argc, char *argv[]) {
-	init_recipe();
-	init_sem();
-	init_chef();
 
 	// get number of orders from user
 	if (argc != 2) {
 		printf("Usage: ./order_semaphore [number_of_orders]\n");
 		return 1;
 	} else {
+
 		int number_of_orders = atoi(argv[1]);
 		int i, j;
+
+
+		init_recipe();
+		init_sem();
+		init_chef();
+
+
+		
 		srand(time(NULL));
 		for (i = 0; i < number_of_orders; i++) {
 			int recipe = (rand() % ORDER_OPTION);
@@ -25,6 +31,11 @@ int main(int argc, char *argv[]) {
 				}				
 			}
 		}
+
+		for (i = 0; i < CHEF_NUM; i++)
+			pthread_join(tid[i], NULL);
+
+		printf("CONGRATS! All orders have been processed! All threads have terminated.\n");
 		return 0;
 	}
 }
@@ -84,11 +95,10 @@ void *create_chef(void *agrv) {
 
 void init_chef() {
 	int i;
-	for (i = 0; i < CHEF_NUM; i++)
+	for (i = 0; i < CHEF_NUM; i++) {
 		state[i] = FREE;
-	pthread_create(&chef1, NULL, create_chef, NULL);
-	pthread_create(&chef2, NULL, create_chef, NULL);
-	pthread_create(&chef3, NULL, create_chef, NULL);
+		pthread_create(&tid[i], NULL, create_chef, NULL);
+	}
 }
 
 void init_recipe() {

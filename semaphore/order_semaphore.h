@@ -29,7 +29,7 @@ typedef struct {
 Recipe recipe0, recipe1, recipe2, recipe3, recipe4;
 Recipe recipes[ORDER_OPTION];
 int state[CHEF_NUM]; // keep track of the state of each chef
-pthread_t chef1, chef2, chef3; 
+pthread_t tid[CHEF_NUM]; // array of thread IDs
 sem_t sem_prep, sem_stove, sem_oven, sem_sink; // 4 binary semaphores for each area
 
 // function prototypes
