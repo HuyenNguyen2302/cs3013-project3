@@ -11,8 +11,7 @@ void *child(void *argv) {
 				return NULL;
 }
 
-int
-main(int argc, char *argv[]) {
+int main(int argc, char *argv[]) {
 				//sem_t s;
 				sem_init(&s, 0, 0);
 				printf("parent: begin\n");
