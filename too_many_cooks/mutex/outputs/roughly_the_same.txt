@@ -1,0 +1,1299 @@
+Press [q] to abort
+Chef 2 get to work.
+Chef 3 get to work.
+Order 1 (Recipe 5) has shipped.
+Chef 1 get to work.
+Order 1 (Recipe 1) has arrived.
+Chef 2 has begun to prep order 1 (Recipe 1).
+Order 2 (Recipe 1) has shipped.
+Order 2 (Recipe 1) has arrived.
+Chef 3 has begun to prep order 2 (Recipe 1).
+Order 3 (Recipe 5) has shipped.
+Order 3 (Recipe 1) has arrived.
+Chef 1 has begun to prep order 3 (Recipe 1).
+Chef 2 has begun to stove order 1 (Recipe 1).
+Chef 3 has begun to stove order 2 (Recipe 1).
+Chef 1 has begun to stove order 3 (Recipe 1).
+Chef 2 has begun to sink order 1 (Recipe 1).
+Chef 2 has begun to prep order 1 (Recipe 1).
+Chef 3 has begun to sink order 2 (Recipe 1).
+Chef 1 has begun to sink order 3 (Recipe 1).
+Order 4 (Recipe 3) has shipped.
+Chef 2 has begun to oven order 1 (Recipe 1).
+Chef 3 has begun to prep order 2 (Recipe 1).
+Chef 1 has begun to prep order 3 (Recipe 1).
+Chef 3 has begun to oven order 2 (Recipe 1).
+Chef 1 has begun to oven order 3 (Recipe 1).
+Chef 2 has begun to sink order 1 (Recipe 1).
+Order 5 (Recipe 4) has shipped.
+Chef 3 has begun to sink order 2 (Recipe 1).
+Chef 1 has begun to sink order 3 (Recipe 1).
+Order 4 (Recipe 1) has arrived.
+Chef 2 has begun to prep order 4 (Recipe 1).
+Order 6 (Recipe 4) has shipped.
+Order 5 (Recipe 5) has arrived.
+Chef 3 has begun to prep order 5 (Recipe 5).
+Chef 2 has begun to stove order 4 (Recipe 1).
+Order 6 (Recipe 1) has arrived.
+Chef 1 has begun to prep order 6 (Recipe 1).
+Chef 3 has begun to oven order 5 (Recipe 5).
+Order 7 (Recipe 1) has shipped.
+Chef 1 has begun to stove order 6 (Recipe 1).
+Chef 3 has begun to sink order 5 (Recipe 5).
+Chef 2 has begun to sink order 4 (Recipe 1).
+Chef 3 has begun to prep order 5 (Recipe 5).
+Chef 2 has begun to prep order 4 (Recipe 1).
+Chef 1 has begun to sink order 6 (Recipe 1).
+Chef 3 has begun to oven order 5 (Recipe 5).
+Chef 2 has begun to oven order 4 (Recipe 1).
+Order 8 (Recipe 1) has shipped.
+Chef 1 has begun to prep order 6 (Recipe 1).
+Chef 3 has begun to sink order 5 (Recipe 5).
+Chef 1 has begun to oven order 6 (Recipe 1).
+Chef 2 has begun to sink order 4 (Recipe 1).
+Order 9 (Recipe 3) has shipped.
+Order 7 (Recipe 3) has arrived.
+Chef 3 has begun to prep order 7 (Recipe 3).
+Chef 1 has begun to sink order 6 (Recipe 1).
+Order 10 (Recipe 5) has shipped.
+Order 11 (Recipe 3) has shipped.
+Order 12 (Recipe 3) has shipped.
+Order 8 (Recipe 5) has arrived.
+Chef 2 has begun to prep order 8 (Recipe 5).
+Chef 2 has begun to oven order 8 (Recipe 5).
+Chef 3 has begun to oven order 7 (Recipe 3).
+Order 9 (Recipe 4) has arrived.
+Chef 1 has begun to oven order 9 (Recipe 4).
+Chef 2 has begun to sink order 8 (Recipe 5).
+Chef 3 has begun to sink order 7 (Recipe 3).
+Chef 2 has begun to prep order 8 (Recipe 5).
+Order 13 (Recipe 4) has shipped.
+Chef 2 has begun to oven order 8 (Recipe 5).
+Order 10 (Recipe 4) has arrived.
+Chef 3 has begun to oven order 10 (Recipe 4).
+Chef 2 has begun to sink order 8 (Recipe 5).
+Order 14 (Recipe 2) has shipped.
+Order 11 (Recipe 1) has arrived.
+Chef 2 has begun to prep order 11 (Recipe 1).
+Chef 1 has begun to prep order 9 (Recipe 4).
+Chef 2 has begun to stove order 11 (Recipe 1).
+Order 15 (Recipe 1) has shipped.
+Chef 1 has begun to sink order 9 (Recipe 4).
+Chef 2 has begun to sink order 11 (Recipe 1).
+Chef 3 has begun to prep order 10 (Recipe 4).
+Order 12 (Recipe 1) has arrived.
+Chef 1 has begun to prep order 12 (Recipe 1).
+Order 16 (Recipe 1) has shipped.
+Chef 2 has begun to prep order 11 (Recipe 1).
+Order 17 (Recipe 2) has shipped.
+Chef 1 has begun to stove order 12 (Recipe 1).
+Chef 2 has begun to oven order 11 (Recipe 1).
+Chef 3 has begun to sink order 10 (Recipe 4).
+Order 18 (Recipe 2) has shipped.
+Chef 1 has begun to sink order 12 (Recipe 1).
+Chef 2 has begun to sink order 11 (Recipe 1).
+Order 19 (Recipe 3) has shipped.
+Order 13 (Recipe 3) has arrived.
+Chef 3 has begun to prep order 13 (Recipe 3).
+Chef 1 has begun to prep order 12 (Recipe 1).
+Order 20 (Recipe 1) has shipped.
+Chef 1 has begun to oven order 12 (Recipe 1).
+Order 21 (Recipe 4) has shipped.
+Chef 1 has begun to sink order 12 (Recipe 1).
+Order 22 (Recipe 1) has shipped.
+Chef 3 has begun to oven order 13 (Recipe 3).
+Order 14 (Recipe 5) has arrived.
+Chef 2 has begun to prep order 14 (Recipe 5).
+Order 23 (Recipe 5) has shipped.
+Chef 2 has begun to oven order 14 (Recipe 5).
+Chef 3 has begun to sink order 13 (Recipe 3).
+Chef 2 has begun to sink order 14 (Recipe 5).
+Order 15 (Recipe 3) has arrived.
+Chef 1 has begun to prep order 15 (Recipe 3).
+Order 24 (Recipe 3) has shipped.
+Chef 2 has begun to prep order 14 (Recipe 5).
+Order 16 (Recipe 3) has arrived.
+Chef 3 has begun to prep order 16 (Recipe 3).
+Chef 2 has begun to oven order 14 (Recipe 5).
+Chef 2 has begun to sink order 14 (Recipe 5).
+Chef 1 has begun to oven order 15 (Recipe 3).
+Order 25 (Recipe 4) has shipped.
+Order 17 (Recipe 4) has arrived.
+Chef 2 has begun to oven order 17 (Recipe 4).
+Chef 3 has begun to oven order 16 (Recipe 3).
+Chef 1 has begun to sink order 15 (Recipe 3).
+Chef 3 has begun to sink order 16 (Recipe 3).
+Order 18 (Recipe 2) has arrived.
+Chef 1 has begun to prep order 18 (Recipe 2).
+Order 26 (Recipe 4) has shipped.
+Order 27 (Recipe 4) has shipped.
+Order 19 (Recipe 1) has arrived.
+Chef 3 has begun to prep order 19 (Recipe 1).
+Chef 1 has begun to stove order 18 (Recipe 2).
+Chef 3 has begun to stove order 19 (Recipe 1).
+Chef 2 has begun to prep order 17 (Recipe 4).
+Chef 1 has begun to sink order 18 (Recipe 2).
+Order 28 (Recipe 5) has shipped.
+Order 29 (Recipe 1) has shipped.
+Chef 3 has begun to sink order 19 (Recipe 1).
+Chef 2 has begun to sink order 17 (Recipe 4).
+Chef 3 has begun to prep order 19 (Recipe 1).
+Order 20 (Recipe 1) has arrived.
+Chef 2 has begun to prep order 20 (Recipe 1).
+Chef 3 has begun to oven order 19 (Recipe 1).
+Order 21 (Recipe 2) has arrived.
+Chef 1 has begun to prep order 21 (Recipe 2).
+Order 30 (Recipe 5) has shipped.
+Order 31 (Recipe 1) has shipped.
+Chef 2 has begun to stove order 20 (Recipe 1).
+Order 32 (Recipe 2) has shipped.
+Order 33 (Recipe 4) has shipped.
+Chef 3 has begun to sink order 19 (Recipe 1).
+Chef 1 has begun to stove order 21 (Recipe 2).
+Order 34 (Recipe 1) has shipped.
+Chef 2 has begun to sink order 20 (Recipe 1).
+Chef 1 has begun to sink order 21 (Recipe 2).
+Chef 2 has begun to prep order 20 (Recipe 1).
+Chef 2 has begun to oven order 20 (Recipe 1).
+Order 35 (Recipe 1) has shipped.
+Order 22 (Recipe 2) has arrived.
+Chef 3 has begun to prep order 22 (Recipe 2).
+Chef 2 has begun to sink order 20 (Recipe 1).
+Order 36 (Recipe 3) has shipped.
+Chef 3 has begun to stove order 22 (Recipe 2).
+Chef 3 has begun to sink order 22 (Recipe 2).
+Order 23 (Recipe 1) has arrived.
+Chef 1 has begun to prep order 23 (Recipe 1).
+Chef 1 has begun to stove order 23 (Recipe 1).
+Order 37 (Recipe 1) has shipped.
+Order 24 (Recipe 3) has arrived.
+Chef 2 has begun to prep order 24 (Recipe 3).
+Chef 1 has begun to sink order 23 (Recipe 1).
+Order 38 (Recipe 2) has shipped.
+Chef 1 has begun to prep order 23 (Recipe 1).
+Order 39 (Recipe 5) has shipped.
+Chef 1 has begun to oven order 23 (Recipe 1).
+Chef 2 has begun to oven order 24 (Recipe 3).
+Order 25 (Recipe 4) has arrived.
+Chef 3 has begun to oven order 25 (Recipe 4).
+Chef 1 has begun to sink order 23 (Recipe 1).
+Order 40 (Recipe 1) has shipped.
+Chef 2 has begun to sink order 24 (Recipe 3).
+Order 41 (Recipe 5) has shipped.
+Order 26 (Recipe 5) has arrived.
+Chef 2 has begun to prep order 26 (Recipe 5).
+Chef 2 has begun to oven order 26 (Recipe 5).
+Order 27 (Recipe 1) has arrived.
+Chef 1 has begun to prep order 27 (Recipe 1).
+Chef 3 has begun to prep order 25 (Recipe 4).
+Order 42 (Recipe 2) has shipped.
+Chef 1 has begun to stove order 27 (Recipe 1).
+Chef 2 has begun to sink order 26 (Recipe 5).
+Chef 2 has begun to prep order 26 (Recipe 5).
+Chef 1 has begun to sink order 27 (Recipe 1).
+Chef 2 has begun to oven order 26 (Recipe 5).
+Chef 3 has begun to sink order 25 (Recipe 4).
+Chef 1 has begun to prep order 27 (Recipe 1).
+Order 43 (Recipe 4) has shipped.
+Chef 2 has begun to sink order 26 (Recipe 5).
+Order 28 (Recipe 3) has arrived.
+Chef 3 has begun to prep order 28 (Recipe 3).
+Chef 1 has begun to oven order 27 (Recipe 1).
+Order 29 (Recipe 4) has arrived.
+Chef 2 has begun to oven order 29 (Recipe 4).
+Chef 1 has begun to sink order 27 (Recipe 1).
+Order 44 (Recipe 3) has shipped.
+Order 45 (Recipe 1) has shipped.
+Chef 3 has begun to oven order 28 (Recipe 3).
+Order 30 (Recipe 4) has arrived.
+Chef 1 has begun to oven order 30 (Recipe 4).
+Chef 2 has begun to prep order 29 (Recipe 4).
+Chef 3 has begun to sink order 28 (Recipe 3).
+Order 46 (Recipe 5) has shipped.
+Chef 2 has begun to sink order 29 (Recipe 4).
+Order 31 (Recipe 4) has arrived.
+Chef 3 has begun to oven order 31 (Recipe 4).
+Order 32 (Recipe 5) has arrived.
+Chef 2 has begun to prep order 32 (Recipe 5).
+Chef 1 has begun to prep order 30 (Recipe 4).
+Order 47 (Recipe 5) has shipped.
+Chef 2 has begun to oven order 32 (Recipe 5).
+Order 48 (Recipe 1) has shipped.
+Chef 1 has begun to sink order 30 (Recipe 4).
+Chef 2 has begun to sink order 32 (Recipe 5).
+Chef 3 has begun to prep order 31 (Recipe 4).
+Order 49 (Recipe 5) has shipped.
+Chef 2 has begun to prep order 32 (Recipe 5).
+Order 33 (Recipe 1) has arrived.
+Chef 1 has begun to prep order 33 (Recipe 1).
+Chef 2 has begun to oven order 32 (Recipe 5).
+Order 50 (Recipe 3) has shipped.
+Chef 3 has begun to sink order 31 (Recipe 4).
+Order 51 (Recipe 2) has shipped.
+Chef 1 has begun to stove order 33 (Recipe 1).
+Chef 2 has begun to sink order 32 (Recipe 5).
+Order 34 (Recipe 5) has arrived.
+Chef 3 has begun to prep order 34 (Recipe 5).
+Order 52 (Recipe 5) has shipped.
+Order 35 (Recipe 1) has arrived.
+Order 53 (Recipe 5) has shipped.
+Chef 2 has begun to prep order 35 (Recipe 1).
+Chef 1 has begun to sink order 33 (Recipe 1).
+Chef 3 has begun to oven order 34 (Recipe 5).
+Chef 1 has begun to prep order 33 (Recipe 1).
+Chef 2 has begun to stove order 35 (Recipe 1).
+Order 54 (Recipe 4) has shipped.
+Chef 1 has begun to oven order 33 (Recipe 1).
+Chef 3 has begun to sink order 34 (Recipe 5).
+Chef 3 has begun to prep order 34 (Recipe 5).
+Chef 2 has begun to sink order 35 (Recipe 1).
+Chef 3 has begun to oven order 34 (Recipe 5).
+Chef 1 has begun to sink order 33 (Recipe 1).
+Order 55 (Recipe 1) has shipped.
+Chef 2 has begun to prep order 35 (Recipe 1).
+Chef 3 has begun to sink order 34 (Recipe 5).
+Chef 2 has begun to oven order 35 (Recipe 1).
+Order 36 (Recipe 4) has arrived.
+Chef 3 has begun to oven order 36 (Recipe 4).
+Order 56 (Recipe 1) has shipped.
+Chef 2 has begun to sink order 35 (Recipe 1).
+Order 37 (Recipe 2) has arrived.
+Chef 1 has begun to prep order 37 (Recipe 2).
+Order 57 (Recipe 4) has shipped.
+Chef 1 has begun to stove order 37 (Recipe 2).
+Order 38 (Recipe 1) has arrived.
+Chef 2 has begun to prep order 38 (Recipe 1).
+Order 58 (Recipe 4) has shipped.
+Chef 3 has begun to prep order 36 (Recipe 4).
+Chef 1 has begun to sink order 37 (Recipe 2).
+Chef 2 has begun to stove order 38 (Recipe 1).
+Chef 3 has begun to sink order 36 (Recipe 4).
+Chef 2 has begun to sink order 38 (Recipe 1).
+Chef 2 has begun to prep order 38 (Recipe 1).
+Order 59 (Recipe 2) has shipped.
+Order 39 (Recipe 1) has arrived.
+Chef 3 has begun to prep order 39 (Recipe 1).
+Chef 2 has begun to oven order 38 (Recipe 1).
+Chef 3 has begun to stove order 39 (Recipe 1).
+Order 60 (Recipe 2) has shipped.
+Order 40 (Recipe 3) has arrived.
+Chef 1 has begun to prep order 40 (Recipe 3).
+Chef 2 has begun to sink order 38 (Recipe 1).
+Chef 3 has begun to sink order 39 (Recipe 1).
+Order 61 (Recipe 1) has shipped.
+Chef 3 has begun to prep order 39 (Recipe 1).
+Order 62 (Recipe 4) has shipped.
+Chef 3 has begun to oven order 39 (Recipe 1).
+Order 63 (Recipe 3) has shipped.
+Chef 3 has begun to sink order 39 (Recipe 1).
+Chef 1 has begun to oven order 40 (Recipe 3).
+Order 41 (Recipe 1) has arrived.
+Chef 2 has begun to prep order 41 (Recipe 1).
+Chef 2 has begun to stove order 41 (Recipe 1).
+Order 64 (Recipe 1) has shipped.
+Chef 1 has begun to sink order 40 (Recipe 3).
+Chef 2 has begun to sink order 41 (Recipe 1).
+Chef 2 has begun to prep order 41 (Recipe 1).
+Order 42 (Recipe 2) has arrived.
+Chef 3 has begun to prep order 42 (Recipe 2).
+Chef 2 has begun to oven order 41 (Recipe 1).
+Order 43 (Recipe 5) has arrived.
+Chef 1 has begun to prep order 43 (Recipe 5).
+Order 65 (Recipe 5) has shipped.
+Chef 1 has begun to oven order 43 (Recipe 5).
+Chef 3 has begun to stove order 42 (Recipe 2).
+Chef 2 has begun to sink order 41 (Recipe 1).
+Chef 1 has begun to sink order 43 (Recipe 5).
+Chef 3 has begun to sink order 42 (Recipe 2).
+Chef 1 has begun to prep order 43 (Recipe 5).
+Chef 1 has begun to oven order 43 (Recipe 5).
+Order 66 (Recipe 4) has shipped.
+Chef 1 has begun to sink order 43 (Recipe 5).
+Order 44 (Recipe 1) has arrived.
+Chef 2 has begun to prep order 44 (Recipe 1).
+Order 67 (Recipe 3) has shipped.
+Chef 2 has begun to stove order 44 (Recipe 1).
+Order 45 (Recipe 2) has arrived.
+Chef 1 has begun to prep order 45 (Recipe 2).
+Order 68 (Recipe 5) has shipped.
+Order 46 (Recipe 5) has arrived.
+Chef 3 has begun to prep order 46 (Recipe 5).
+Chef 2 has begun to sink order 44 (Recipe 1).
+Chef 3 has begun to oven order 46 (Recipe 5).
+Order 69 (Recipe 3) has shipped.
+Chef 1 has begun to stove order 45 (Recipe 2).
+Chef 2 has begun to prep order 44 (Recipe 1).
+Chef 3 has begun to sink order 46 (Recipe 5).
+Chef 2 has begun to oven order 44 (Recipe 1).
+Chef 1 has begun to sink order 45 (Recipe 2).
+Order 70 (Recipe 5) has shipped.
+Chef 3 has begun to prep order 46 (Recipe 5).
+Chef 2 has begun to sink order 44 (Recipe 1).
+Order 71 (Recipe 3) has shipped.
+Chef 3 has begun to oven order 46 (Recipe 5).
+Order 72 (Recipe 4) has shipped.
+Chef 3 has begun to sink order 46 (Recipe 5).
+Order 47 (Recipe 1) has arrived.
+Chef 3 has begun to prep order 47 (Recipe 1).
+Order 73 (Recipe 2) has shipped.
+Order 48 (Recipe 4) has arrived.
+Chef 2 has begun to oven order 48 (Recipe 4).
+Order 49 (Recipe 3) has arrived.
+Chef 1 has begun to prep order 49 (Recipe 3).
+Chef 3 has begun to stove order 47 (Recipe 1).
+Order 74 (Recipe 3) has shipped.
+Order 75 (Recipe 4) has shipped.
+Chef 3 has begun to sink order 47 (Recipe 1).
+Chef 1 has begun to oven order 49 (Recipe 3).
+Chef 3 has begun to prep order 47 (Recipe 1).
+Order 76 (Recipe 5) has shipped.
+Chef 3 has begun to oven order 47 (Recipe 1).
+Chef 2 has begun to prep order 48 (Recipe 4).
+Chef 1 has begun to sink order 49 (Recipe 3).
+Order 77 (Recipe 1) has shipped.
+Chef 3 has begun to sink order 47 (Recipe 1).
+Chef 2 has begun to sink order 48 (Recipe 4).
+Order 50 (Recipe 1) has arrived.
+Chef 1 has begun to prep order 50 (Recipe 1).
+Order 51 (Recipe 5) has arrived.
+Chef 2 has begun to prep order 51 (Recipe 5).
+Order 52 (Recipe 5) has arrived.
+Chef 3 has begun to prep order 52 (Recipe 5).
+Chef 1 has begun to stove order 50 (Recipe 1).
+Order 78 (Recipe 5) has shipped.
+Chef 2 has begun to oven order 51 (Recipe 5).
+Chef 3 has begun to oven order 52 (Recipe 5).
+Order 79 (Recipe 4) has shipped.
+Chef 1 has begun to sink order 50 (Recipe 1).
+Chef 2 has begun to sink order 51 (Recipe 5).
+Chef 3 has begun to sink order 52 (Recipe 5).
+Chef 1 has begun to prep order 50 (Recipe 1).
+Order 80 (Recipe 2) has shipped.
+Chef 3 has begun to prep order 52 (Recipe 5).
+Chef 2 has begun to prep order 51 (Recipe 5).
+Chef 1 has begun to oven order 50 (Recipe 1).
+Chef 3 has begun to oven order 52 (Recipe 5).
+Chef 2 has begun to oven order 51 (Recipe 5).
+Chef 1 has begun to sink order 50 (Recipe 1).
+Chef 3 has begun to sink order 52 (Recipe 5).
+Chef 2 has begun to sink order 51 (Recipe 5).
+Order 81 (Recipe 3) has shipped.
+Order 53 (Recipe 2) has arrived.
+Chef 3 has begun to prep order 53 (Recipe 2).
+Order 82 (Recipe 2) has shipped.
+Order 54 (Recipe 3) has arrived.
+Chef 2 has begun to prep order 54 (Recipe 3).
+Order 55 (Recipe 5) has arrived.
+Chef 1 has begun to prep order 55 (Recipe 5).
+Chef 1 has begun to oven order 55 (Recipe 5).
+Chef 3 has begun to stove order 53 (Recipe 2).
+Order 83 (Recipe 4) has shipped.
+Chef 3 has begun to sink order 53 (Recipe 2).
+Chef 1 has begun to sink order 55 (Recipe 5).
+Chef 2 has begun to oven order 54 (Recipe 3).
+Chef 1 has begun to prep order 55 (Recipe 5).
+Order 84 (Recipe 3) has shipped.
+Chef 1 has begun to oven order 55 (Recipe 5).
+Chef 1 has begun to sink order 55 (Recipe 5).
+Chef 2 has begun to sink order 54 (Recipe 3).
+Order 85 (Recipe 5) has shipped.
+Order 56 (Recipe 4) has arrived.
+Chef 1 has begun to oven order 56 (Recipe 4).
+Order 86 (Recipe 1) has shipped.
+Order 57 (Recipe 5) has arrived.
+Chef 3 has begun to prep order 57 (Recipe 5).
+Order 58 (Recipe 5) has arrived.
+Chef 2 has begun to prep order 58 (Recipe 5).
+Chef 3 has begun to oven order 57 (Recipe 5).
+Order 87 (Recipe 5) has shipped.
+Chef 2 has begun to oven order 58 (Recipe 5).
+Chef 3 has begun to sink order 57 (Recipe 5).
+Chef 2 has begun to sink order 58 (Recipe 5).
+Chef 3 has begun to prep order 57 (Recipe 5).
+Chef 2 has begun to prep order 58 (Recipe 5).
+Chef 3 has begun to oven order 57 (Recipe 5).
+Order 88 (Recipe 5) has shipped.
+Chef 2 has begun to oven order 58 (Recipe 5).
+Order 89 (Recipe 3) has shipped.
+Chef 1 has begun to prep order 56 (Recipe 4).
+Chef 3 has begun to sink order 57 (Recipe 5).
+Chef 2 has begun to sink order 58 (Recipe 5).
+Order 90 (Recipe 5) has shipped.
+Order 59 (Recipe 1) has arrived.
+Chef 3 has begun to prep order 59 (Recipe 1).
+Order 60 (Recipe 4) has arrived.
+Chef 2 has begun to oven order 60 (Recipe 4).
+Order 91 (Recipe 2) has shipped.
+Chef 1 has begun to sink order 56 (Recipe 4).
+Chef 3 has begun to stove order 59 (Recipe 1).
+Order 61 (Recipe 1) has arrived.
+Chef 1 has begun to prep order 61 (Recipe 1).
+Chef 3 has begun to sink order 59 (Recipe 1).
+Chef 1 has begun to stove order 61 (Recipe 1).
+Order 92 (Recipe 4) has shipped.
+Chef 3 has begun to prep order 59 (Recipe 1).
+Chef 2 has begun to prep order 60 (Recipe 4).
+Chef 1 has begun to sink order 61 (Recipe 1).
+Chef 3 has begun to oven order 59 (Recipe 1).
+Chef 1 has begun to prep order 61 (Recipe 1).
+Chef 2 has begun to sink order 60 (Recipe 4).
+Chef 1 has begun to oven order 61 (Recipe 1).
+Order 93 (Recipe 1) has shipped.
+Chef 3 has begun to sink order 59 (Recipe 1).
+Order 94 (Recipe 1) has shipped.
+Order 62 (Recipe 2) has arrived.
+Chef 2 has begun to prep order 62 (Recipe 2).
+Chef 1 has begun to sink order 61 (Recipe 1).
+Order 95 (Recipe 2) has shipped.
+Chef 2 has begun to stove order 62 (Recipe 2).
+Chef 2 has begun to sink order 62 (Recipe 2).
+Order 63 (Recipe 2) has arrived.
+Chef 1 has begun to prep order 63 (Recipe 2).
+Order 64 (Recipe 4) has arrived.
+Chef 3 has begun to oven order 64 (Recipe 4).
+Order 96 (Recipe 2) has shipped.
+Order 97 (Recipe 3) has shipped.
+Chef 1 has begun to stove order 63 (Recipe 2).
+Order 98 (Recipe 5) has shipped.
+Chef 1 has begun to sink order 63 (Recipe 2).
+Order 65 (Recipe 1) has arrived.
+Chef 2 has begun to prep order 65 (Recipe 1).
+Chef 3 has begun to prep order 64 (Recipe 4).
+Order 99 (Recipe 1) has shipped.
+Chef 2 has begun to stove order 65 (Recipe 1).
+Chef 3 has begun to sink order 64 (Recipe 4).
+Order 100 (Recipe 5) has shipped.
+Chef 2 has begun to sink order 65 (Recipe 1).
+Order 66 (Recipe 4) has arrived.
+Chef 1 has begun to oven order 66 (Recipe 4).
+Order 101 (Recipe 2) has shipped.
+Chef 2 has begun to prep order 65 (Recipe 1).
+Order 67 (Recipe 3) has arrived.
+Chef 3 has begun to prep order 67 (Recipe 3).
+Chef 2 has begun to oven order 65 (Recipe 1).
+Chef 2 has begun to sink order 65 (Recipe 1).
+Order 102 (Recipe 1) has shipped.
+Chef 3 has begun to oven order 67 (Recipe 3).
+Chef 1 has begun to prep order 66 (Recipe 4).
+Order 103 (Recipe 3) has shipped.
+Chef 3 has begun to sink order 67 (Recipe 3).
+Order 104 (Recipe 3) has shipped.
+Order 68 (Recipe 1) has arrived.
+Chef 2 has begun to prep order 68 (Recipe 1).
+Chef 1 has begun to sink order 66 (Recipe 4).
+Order 69 (Recipe 4) has arrived.
+Chef 3 has begun to oven order 69 (Recipe 4).
+Chef 2 has begun to stove order 68 (Recipe 1).
+Order 70 (Recipe 5) has arrived.
+Chef 1 has begun to prep order 70 (Recipe 5).
+Chef 1 has begun to oven order 70 (Recipe 5).
+Chef 2 has begun to sink order 68 (Recipe 1).
+Chef 2 has begun to prep order 68 (Recipe 1).
+Chef 1 has begun to sink order 70 (Recipe 5).
+Chef 2 has begun to oven order 68 (Recipe 1).
+Order 105 (Recipe 5) has shipped.
+Chef 1 has begun to prep order 70 (Recipe 5).
+Chef 3 has begun to prep order 69 (Recipe 4).
+Chef 1 has begun to oven order 70 (Recipe 5).
+Chef 2 has begun to sink order 68 (Recipe 1).
+Chef 1 has begun to sink order 70 (Recipe 5).
+Chef 3 has begun to sink order 69 (Recipe 4).
+Order 106 (Recipe 1) has shipped.
+Order 107 (Recipe 2) has shipped.
+Order 71 (Recipe 3) has arrived.
+Chef 1 has begun to prep order 71 (Recipe 3).
+Order 72 (Recipe 5) has arrived.
+Chef 3 has begun to prep order 72 (Recipe 5).
+Order 73 (Recipe 3) has arrived.
+Chef 2 has begun to prep order 73 (Recipe 3).
+Chef 3 has begun to oven order 72 (Recipe 5).
+Order 108 (Recipe 4) has shipped.
+Order 109 (Recipe 1) has shipped.
+Chef 3 has begun to sink order 72 (Recipe 5).
+Chef 1 has begun to oven order 71 (Recipe 3).
+Chef 3 has begun to prep order 72 (Recipe 5).
+Order 110 (Recipe 4) has shipped.
+Chef 3 has begun to oven order 72 (Recipe 5).
+Chef 1 has begun to sink order 71 (Recipe 3).
+Chef 3 has begun to sink order 72 (Recipe 5).
+Chef 2 has begun to oven order 73 (Recipe 3).
+Order 74 (Recipe 3) has arrived.
+Chef 3 has begun to prep order 74 (Recipe 3).
+Order 75 (Recipe 5) has arrived.
+Chef 1 has begun to prep order 75 (Recipe 5).
+Chef 2 has begun to sink order 73 (Recipe 3).
+Order 111 (Recipe 4) has shipped.
+Chef 1 has begun to oven order 75 (Recipe 5).
+Order 76 (Recipe 4) has arrived.
+Chef 2 has begun to oven order 76 (Recipe 4).
+Order 112 (Recipe 5) has shipped.
+Order 113 (Recipe 4) has shipped.
+Chef 3 has begun to oven order 74 (Recipe 3).
+Chef 3 has begun to sink order 74 (Recipe 3).
+Chef 1 has begun to sink order 75 (Recipe 5).
+Chef 2 has begun to prep order 76 (Recipe 4).
+Order 114 (Recipe 2) has shipped.
+Chef 1 has begun to prep order 75 (Recipe 5).
+Chef 1 has begun to oven order 75 (Recipe 5).
+Order 77 (Recipe 2) has arrived.
+Chef 3 has begun to prep order 77 (Recipe 2).
+Chef 2 has begun to sink order 76 (Recipe 4).
+Chef 1 has begun to sink order 75 (Recipe 5).
+Chef 3 has begun to stove order 77 (Recipe 2).
+Order 115 (Recipe 5) has shipped.
+Order 78 (Recipe 4) has arrived.
+Chef 2 has begun to oven order 78 (Recipe 4).
+Order 79 (Recipe 3) has arrived.
+Chef 1 has begun to prep order 79 (Recipe 3).
+Chef 3 has begun to sink order 77 (Recipe 2).
+Order 116 (Recipe 3) has shipped.
+Order 117 (Recipe 5) has shipped.
+Chef 1 has begun to oven order 79 (Recipe 3).
+Order 118 (Recipe 3) has shipped.
+Chef 2 has begun to prep order 78 (Recipe 4).
+Chef 1 has begun to sink order 79 (Recipe 3).
+Order 80 (Recipe 5) has arrived.
+Chef 3 has begun to prep order 80 (Recipe 5).
+Chef 3 has begun to oven order 80 (Recipe 5).
+Chef 2 has begun to sink order 78 (Recipe 4).
+Order 81 (Recipe 5) has arrived.
+Chef 1 has begun to prep order 81 (Recipe 5).
+Order 119 (Recipe 4) has shipped.
+Chef 1 has begun to oven order 81 (Recipe 5).
+Chef 3 has begun to sink order 80 (Recipe 5).
+Order 82 (Recipe 1) has arrived.
+Chef 2 has begun to prep order 82 (Recipe 1).
+Chef 3 has begun to prep order 80 (Recipe 5).
+Chef 1 has begun to sink order 81 (Recipe 5).
+Order 120 (Recipe 5) has shipped.
+Chef 2 has begun to stove order 82 (Recipe 1).
+Chef 3 has begun to oven order 80 (Recipe 5).
+Chef 1 has begun to prep order 81 (Recipe 5).
+Order 121 (Recipe 3) has shipped.
+Chef 1 has begun to oven order 81 (Recipe 5).
+Chef 3 has begun to sink order 80 (Recipe 5).
+Chef 2 has begun to sink order 82 (Recipe 1).
+Order 122 (Recipe 3) has shipped.
+Chef 1 has begun to sink order 81 (Recipe 5).
+Chef 2 has begun to prep order 82 (Recipe 1).
+Order 123 (Recipe 1) has shipped.
+Order 83 (Recipe 4) has arrived.
+Chef 3 has begun to oven order 83 (Recipe 4).
+Order 84 (Recipe 2) has arrived.
+Chef 1 has begun to prep order 84 (Recipe 2).
+Chef 2 has begun to oven order 82 (Recipe 1).
+Order 124 (Recipe 2) has shipped.
+Chef 1 has begun to stove order 84 (Recipe 2).
+Chef 2 has begun to sink order 82 (Recipe 1).
+Order 125 (Recipe 4) has shipped.
+Chef 1 has begun to sink order 84 (Recipe 2).
+Chef 3 has begun to prep order 83 (Recipe 4).
+Order 126 (Recipe 1) has shipped.
+Order 85 (Recipe 3) has arrived.
+Chef 2 has begun to prep order 85 (Recipe 3).
+Order 127 (Recipe 1) has shipped.
+Chef 3 has begun to sink order 83 (Recipe 4).
+Order 86 (Recipe 2) has arrived.
+Chef 3 has begun to prep order 86 (Recipe 2).
+Order 87 (Recipe 4) has arrived.
+Chef 1 has begun to oven order 87 (Recipe 4).
+Chef 2 has begun to oven order 85 (Recipe 3).
+Chef 3 has begun to stove order 86 (Recipe 2).
+Order 128 (Recipe 1) has shipped.
+Chef 2 has begun to sink order 85 (Recipe 3).
+Chef 3 has begun to sink order 86 (Recipe 2).
+Order 129 (Recipe 3) has shipped.
+Chef 1 has begun to prep order 87 (Recipe 4).
+Order 88 (Recipe 3) has arrived.
+Chef 2 has begun to prep order 88 (Recipe 3).
+Order 130 (Recipe 3) has shipped.
+Chef 1 has begun to sink order 87 (Recipe 4).
+Order 131 (Recipe 5) has shipped.
+Chef 2 has begun to oven order 88 (Recipe 3).
+Order 89 (Recipe 1) has arrived.
+Chef 1 has begun to prep order 89 (Recipe 1).
+Order 90 (Recipe 5) has arrived.
+Chef 3 has begun to prep order 90 (Recipe 5).
+Order 132 (Recipe 5) has shipped.
+Chef 3 has begun to oven order 90 (Recipe 5).
+Order 133 (Recipe 4) has shipped.
+Chef 1 has begun to stove order 89 (Recipe 1).
+Chef 2 has begun to sink order 88 (Recipe 3).
+Chef 3 has begun to sink order 90 (Recipe 5).
+Chef 1 has begun to sink order 89 (Recipe 1).
+Chef 3 has begun to prep order 90 (Recipe 5).
+Chef 1 has begun to prep order 89 (Recipe 1).
+Chef 3 has begun to oven order 90 (Recipe 5).
+Order 91 (Recipe 5) has arrived.
+Chef 2 has begun to prep order 91 (Recipe 5).
+Chef 1 has begun to oven order 89 (Recipe 1).
+Order 134 (Recipe 4) has shipped.
+Chef 2 has begun to oven order 91 (Recipe 5).
+Chef 3 has begun to sink order 90 (Recipe 5).
+Chef 2 has begun to sink order 91 (Recipe 5).
+Chef 1 has begun to sink order 89 (Recipe 1).
+Order 92 (Recipe 3) has arrived.
+Chef 3 has begun to prep order 92 (Recipe 3).
+Order 135 (Recipe 3) has shipped.
+Chef 2 has begun to prep order 91 (Recipe 5).
+Chef 2 has begun to oven order 91 (Recipe 5).
+Order 136 (Recipe 5) has shipped.
+Order 137 (Recipe 4) has shipped.
+Chef 2 has begun to sink order 91 (Recipe 5).
+Order 93 (Recipe 5) has arrived.
+Chef 1 has begun to prep order 93 (Recipe 5).
+Chef 1 has begun to oven order 93 (Recipe 5).
+Order 138 (Recipe 3) has shipped.
+Chef 3 has begun to oven order 92 (Recipe 3).
+Order 94 (Recipe 5) has arrived.
+Chef 2 has begun to prep order 94 (Recipe 5).
+Chef 1 has begun to sink order 93 (Recipe 5).
+Chef 2 has begun to oven order 94 (Recipe 5).
+Chef 1 has begun to prep order 93 (Recipe 5).
+Chef 3 has begun to sink order 92 (Recipe 3).
+Chef 2 has begun to sink order 94 (Recipe 5).
+Order 139 (Recipe 2) has shipped.
+Chef 1 has begun to oven order 93 (Recipe 5).
+Chef 2 has begun to prep order 94 (Recipe 5).
+Order 140 (Recipe 1) has shipped.
+Order 95 (Recipe 2) has arrived.
+Chef 3 has begun to prep order 95 (Recipe 2).
+Chef 1 has begun to sink order 93 (Recipe 5).
+Chef 2 has begun to oven order 94 (Recipe 5).
+Chef 2 has begun to sink order 94 (Recipe 5).
+Order 96 (Recipe 4) has arrived.
+Chef 1 has begun to oven order 96 (Recipe 4).
+Chef 3 has begun to stove order 95 (Recipe 2).
+Order 141 (Recipe 3) has shipped.
+Order 97 (Recipe 1) has arrived.
+Chef 2 has begun to prep order 97 (Recipe 1).
+Chef 3 has begun to sink order 95 (Recipe 2).
+Chef 2 has begun to stove order 97 (Recipe 1).
+Order 142 (Recipe 4) has shipped.
+Chef 2 has begun to sink order 97 (Recipe 1).
+Chef 2 has begun to prep order 97 (Recipe 1).
+Chef 1 has begun to prep order 96 (Recipe 4).
+Chef 2 has begun to oven order 97 (Recipe 1).
+Order 98 (Recipe 1) has arrived.
+Chef 3 has begun to prep order 98 (Recipe 1).
+Order 143 (Recipe 5) has shipped.
+Chef 1 has begun to sink order 96 (Recipe 4).
+Chef 2 has begun to sink order 97 (Recipe 1).
+Chef 3 has begun to stove order 98 (Recipe 1).
+Order 144 (Recipe 3) has shipped.
+Order 99 (Recipe 2) has arrived.
+Chef 1 has begun to prep order 99 (Recipe 2).
+Chef 3 has begun to sink order 98 (Recipe 1).
+Order 100 (Recipe 2) has arrived.
+Chef 2 has begun to prep order 100 (Recipe 2).
+Chef 3 has begun to prep order 98 (Recipe 1).
+Chef 1 has begun to stove order 99 (Recipe 2).
+Chef 3 has begun to oven order 98 (Recipe 1).
+Chef 2 has begun to stove order 100 (Recipe 2).
+Order 145 (Recipe 1) has shipped.
+Chef 1 has begun to sink order 99 (Recipe 2).
+Order 146 (Recipe 3) has shipped.
+Chef 2 has begun to sink order 100 (Recipe 2).
+Chef 3 has begun to sink order 98 (Recipe 1).
+Order 147 (Recipe 1) has shipped.
+Order 101 (Recipe 3) has arrived.
+Chef 3 has begun to prep order 101 (Recipe 3).
+Order 148 (Recipe 5) has shipped.
+Order 149 (Recipe 4) has shipped.
+Order 102 (Recipe 5) has arrived.
+Chef 1 has begun to prep order 102 (Recipe 5).
+Chef 1 has begun to oven order 102 (Recipe 5).
+Order 103 (Recipe 1) has arrived.
+Chef 2 has begun to prep order 103 (Recipe 1).
+Chef 2 has begun to stove order 103 (Recipe 1).
+Chef 1 has begun to sink order 102 (Recipe 5).
+Chef 1 has begun to prep order 102 (Recipe 5).
+Order 150 (Recipe 1) has shipped.
+Chef 3 has begun to oven order 101 (Recipe 3).
+Chef 2 has begun to sink order 103 (Recipe 1).
+Chef 1 has begun to oven order 102 (Recipe 5).
+Chef 2 has begun to prep order 103 (Recipe 1).
+Chef 1 has begun to sink order 102 (Recipe 5).
+Chef 2 has begun to oven order 103 (Recipe 1).
+Chef 3 has begun to sink order 101 (Recipe 3).
+Order 151 (Recipe 2) has shipped.
+Order 104 (Recipe 2) has arrived.
+Chef 1 has begun to prep order 104 (Recipe 2).
+Chef 2 has begun to sink order 103 (Recipe 1).
+Order 105 (Recipe 5) has arrived.
+Chef 3 has begun to prep order 105 (Recipe 5).
+Order 152 (Recipe 5) has shipped.
+Chef 1 has begun to stove order 104 (Recipe 2).
+Chef 3 has begun to oven order 105 (Recipe 5).
+Chef 1 has begun to sink order 104 (Recipe 2).
+Chef 3 has begun to sink order 105 (Recipe 5).
+Order 106 (Recipe 1) has arrived.
+Chef 2 has begun to prep order 106 (Recipe 1).
+Chef 3 has begun to prep order 105 (Recipe 5).
+Order 153 (Recipe 4) has shipped.
+Chef 3 has begun to oven order 105 (Recipe 5).
+Chef 2 has begun to stove order 106 (Recipe 1).
+Chef 3 has begun to sink order 105 (Recipe 5).
+Order 154 (Recipe 1) has shipped.
+Chef 2 has begun to sink order 106 (Recipe 1).
+Order 107 (Recipe 3) has arrived.
+Chef 1 has begun to prep order 107 (Recipe 3).
+Chef 2 has begun to prep order 106 (Recipe 1).
+Order 108 (Recipe 3) has arrived.
+Chef 3 has begun to prep order 108 (Recipe 3).
+Order 155 (Recipe 2) has shipped.
+Chef 2 has begun to oven order 106 (Recipe 1).
+Order 156 (Recipe 5) has shipped.
+Chef 2 has begun to sink order 106 (Recipe 1).
+Chef 1 has begun to oven order 107 (Recipe 3).
+Chef 3 has begun to oven order 108 (Recipe 3).
+Order 157 (Recipe 1) has shipped.
+Order 109 (Recipe 5) has arrived.
+Chef 2 has begun to prep order 109 (Recipe 5).
+Chef 1 has begun to sink order 107 (Recipe 3).
+Chef 2 has begun to oven order 109 (Recipe 5).
+Chef 3 has begun to sink order 108 (Recipe 3).
+Chef 2 has begun to sink order 109 (Recipe 5).
+Order 110 (Recipe 1) has arrived.
+Chef 1 has begun to prep order 110 (Recipe 1).
+Order 111 (Recipe 2) has arrived.
+Chef 3 has begun to prep order 111 (Recipe 2).
+Chef 2 has begun to prep order 109 (Recipe 5).
+Chef 1 has begun to stove order 110 (Recipe 1).
+Order 158 (Recipe 5) has shipped.
+Chef 2 has begun to oven order 109 (Recipe 5).
+Chef 2 has begun to sink order 109 (Recipe 5).
+Chef 1 has begun to sink order 110 (Recipe 1).
+Chef 3 has begun to stove order 111 (Recipe 2).
+Order 159 (Recipe 3) has shipped.
+Chef 1 has begun to prep order 110 (Recipe 1).
+Chef 3 has begun to sink order 111 (Recipe 2).
+Order 112 (Recipe 4) has arrived.
+Chef 2 has begun to oven order 112 (Recipe 4).
+Chef 1 has begun to oven order 110 (Recipe 1).
+Chef 1 has begun to sink order 110 (Recipe 1).
+Order 160 (Recipe 1) has shipped.
+Order 161 (Recipe 1) has shipped.
+Order 113 (Recipe 4) has arrived.
+Chef 3 has begun to oven order 113 (Recipe 4).
+Chef 2 has begun to prep order 112 (Recipe 4).
+Order 114 (Recipe 1) has arrived.
+Chef 1 has begun to prep order 114 (Recipe 1).
+Chef 1 has begun to stove order 114 (Recipe 1).
+Order 162 (Recipe 4) has shipped.
+Chef 2 has begun to sink order 112 (Recipe 4).
+Order 163 (Recipe 5) has shipped.
+Chef 1 has begun to sink order 114 (Recipe 1).
+Chef 1 has begun to prep order 114 (Recipe 1).
+Order 115 (Recipe 4) has arrived.
+Chef 2 has begun to oven order 115 (Recipe 4).
+Order 164 (Recipe 4) has shipped.
+Chef 1 has begun to oven order 114 (Recipe 1).
+Chef 3 has begun to prep order 113 (Recipe 4).
+Order 165 (Recipe 4) has shipped.
+Order 166 (Recipe 1) has shipped.
+Chef 1 has begun to sink order 114 (Recipe 1).
+Order 167 (Recipe 5) has shipped.
+Chef 3 has begun to sink order 113 (Recipe 4).
+Order 168 (Recipe 2) has shipped.
+Chef 2 has begun to prep order 115 (Recipe 4).
+Order 116 (Recipe 5) has arrived.
+Chef 3 has begun to prep order 116 (Recipe 5).
+Order 117 (Recipe 4) has arrived.
+Chef 1 has begun to oven order 117 (Recipe 4).
+Chef 3 has begun to oven order 116 (Recipe 5).
+Chef 2 has begun to sink order 115 (Recipe 4).
+Order 169 (Recipe 1) has shipped.
+Chef 3 has begun to sink order 116 (Recipe 5).
+Order 170 (Recipe 5) has shipped.
+Chef 3 has begun to prep order 116 (Recipe 5).
+Order 118 (Recipe 2) has arrived.
+Chef 2 has begun to prep order 118 (Recipe 2).
+Chef 3 has begun to oven order 116 (Recipe 5).
+Order 171 (Recipe 4) has shipped.
+Chef 2 has begun to stove order 118 (Recipe 2).
+Chef 3 has begun to sink order 116 (Recipe 5).
+Chef 2 has begun to sink order 118 (Recipe 2).
+Chef 1 has begun to prep order 117 (Recipe 4).
+Order 119 (Recipe 5) has arrived.
+Chef 3 has begun to prep order 119 (Recipe 5).
+Order 172 (Recipe 2) has shipped.
+Chef 3 has begun to oven order 119 (Recipe 5).
+Chef 1 has begun to sink order 117 (Recipe 4).
+Order 173 (Recipe 3) has shipped.
+Chef 3 has begun to sink order 119 (Recipe 5).
+Chef 3 has begun to prep order 119 (Recipe 5).
+Order 174 (Recipe 4) has shipped.
+Order 120 (Recipe 3) has arrived.
+Chef 1 has begun to prep order 120 (Recipe 3).
+Chef 3 has begun to oven order 119 (Recipe 5).
+Chef 3 has begun to sink order 119 (Recipe 5).
+Order 121 (Recipe 5) has arrived.
+Chef 2 has begun to prep order 121 (Recipe 5).
+Chef 2 has begun to oven order 121 (Recipe 5).
+Order 175 (Recipe 3) has shipped.
+Order 176 (Recipe 5) has shipped.
+Order 122 (Recipe 3) has arrived.
+Chef 3 has begun to prep order 122 (Recipe 3).
+Chef 2 has begun to sink order 121 (Recipe 5).
+Chef 1 has begun to oven order 120 (Recipe 3).
+Chef 2 has begun to prep order 121 (Recipe 5).
+Order 177 (Recipe 1) has shipped.
+Chef 2 has begun to oven order 121 (Recipe 5).
+Chef 1 has begun to sink order 120 (Recipe 3).
+Order 178 (Recipe 1) has shipped.
+Chef 3 has begun to oven order 122 (Recipe 3).
+Chef 2 has begun to sink order 121 (Recipe 5).
+Order 123 (Recipe 4) has arrived.
+Chef 1 has begun to oven order 123 (Recipe 4).
+Order 124 (Recipe 5) has arrived.
+Chef 2 has begun to prep order 124 (Recipe 5).
+Order 179 (Recipe 5) has shipped.
+Chef 3 has begun to sink order 122 (Recipe 3).
+Chef 2 has begun to oven order 124 (Recipe 5).
+Order 180 (Recipe 2) has shipped.
+Chef 2 has begun to sink order 124 (Recipe 5).
+Order 125 (Recipe 3) has arrived.
+Chef 3 has begun to prep order 125 (Recipe 3).
+Chef 2 has begun to prep order 124 (Recipe 5).
+Order 181 (Recipe 1) has shipped.
+Chef 2 has begun to oven order 124 (Recipe 5).
+Chef 1 has begun to prep order 123 (Recipe 4).
+Chef 2 has begun to sink order 124 (Recipe 5).
+Chef 3 has begun to oven order 125 (Recipe 3).
+Order 126 (Recipe 1) has arrived.
+Chef 2 has begun to prep order 126 (Recipe 1).
+Order 182 (Recipe 2) has shipped.
+Chef 1 has begun to sink order 123 (Recipe 4).
+Chef 3 has begun to sink order 125 (Recipe 3).
+Chef 2 has begun to stove order 126 (Recipe 1).
+Order 183 (Recipe 2) has shipped.
+Order 127 (Recipe 3) has arrived.
+Chef 1 has begun to prep order 127 (Recipe 3).
+Chef 2 has begun to sink order 126 (Recipe 1).
+Order 128 (Recipe 2) has arrived.
+Chef 3 has begun to prep order 128 (Recipe 2).
+Chef 2 has begun to prep order 126 (Recipe 1).
+Order 184 (Recipe 1) has shipped.
+Chef 2 has begun to oven order 126 (Recipe 1).
+Order 185 (Recipe 3) has shipped.
+Chef 3 has begun to stove order 128 (Recipe 2).
+Chef 1 has begun to oven order 127 (Recipe 3).
+Chef 2 has begun to sink order 126 (Recipe 1).
+Chef 3 has begun to sink order 128 (Recipe 2).
+Order 186 (Recipe 5) has shipped.
+Chef 1 has begun to sink order 127 (Recipe 3).
+Order 129 (Recipe 1) has arrived.
+Chef 1 has begun to prep order 129 (Recipe 1).
+Order 130 (Recipe 4) has arrived.
+Chef 2 has begun to oven order 130 (Recipe 4).
+Order 187 (Recipe 5) has shipped.
+Chef 1 has begun to stove order 129 (Recipe 1).
+Order 131 (Recipe 1) has arrived.
+Chef 3 has begun to prep order 131 (Recipe 1).
+Chef 1 has begun to sink order 129 (Recipe 1).
+Chef 3 has begun to stove order 131 (Recipe 1).
+Order 188 (Recipe 4) has shipped.
+Chef 1 has begun to prep order 129 (Recipe 1).
+Chef 3 has begun to sink order 131 (Recipe 1).
+Chef 1 has begun to oven order 129 (Recipe 1).
+Chef 2 has begun to prep order 130 (Recipe 4).
+Order 189 (Recipe 5) has shipped.
+Chef 3 has begun to prep order 131 (Recipe 1).
+Chef 3 has begun to oven order 131 (Recipe 1).
+Chef 1 has begun to sink order 129 (Recipe 1).
+Chef 2 has begun to sink order 130 (Recipe 4).
+Chef 3 has begun to sink order 131 (Recipe 1).
+Order 132 (Recipe 3) has arrived.
+Chef 2 has begun to prep order 132 (Recipe 3).
+Order 190 (Recipe 4) has shipped.
+Order 133 (Recipe 1) has arrived.
+Chef 1 has begun to prep order 133 (Recipe 1).
+Order 191 (Recipe 3) has shipped.
+Chef 1 has begun to stove order 133 (Recipe 1).
+Order 192 (Recipe 1) has shipped.
+Order 134 (Recipe 3) has arrived.
+Chef 3 has begun to prep order 134 (Recipe 3).
+Chef 2 has begun to oven order 132 (Recipe 3).
+Order 193 (Recipe 4) has shipped.
+Chef 1 has begun to sink order 133 (Recipe 1).
+Chef 2 has begun to sink order 132 (Recipe 3).
+Chef 1 has begun to prep order 133 (Recipe 1).
+Chef 1 has begun to oven order 133 (Recipe 1).
+Chef 3 has begun to oven order 134 (Recipe 3).
+Order 135 (Recipe 5) has arrived.
+Chef 2 has begun to prep order 135 (Recipe 5).
+Order 194 (Recipe 1) has shipped.
+Chef 2 has begun to oven order 135 (Recipe 5).
+Chef 1 has begun to sink order 133 (Recipe 1).
+Chef 3 has begun to sink order 134 (Recipe 3).
+Order 195 (Recipe 3) has shipped.
+Chef 2 has begun to sink order 135 (Recipe 5).
+Chef 2 has begun to prep order 135 (Recipe 5).
+Order 136 (Recipe 4) has arrived.
+Chef 3 has begun to oven order 136 (Recipe 4).
+Chef 2 has begun to oven order 135 (Recipe 5).
+Order 196 (Recipe 5) has shipped.
+Order 137 (Recipe 5) has arrived.
+Chef 1 has begun to prep order 137 (Recipe 5).
+Chef 1 has begun to oven order 137 (Recipe 5).
+Chef 2 has begun to sink order 135 (Recipe 5).
+Chef 1 has begun to sink order 137 (Recipe 5).
+Order 138 (Recipe 4) has arrived.
+Chef 2 has begun to oven order 138 (Recipe 4).
+Order 197 (Recipe 2) has shipped.
+Chef 1 has begun to prep order 137 (Recipe 5).
+Chef 1 has begun to oven order 137 (Recipe 5).
+Chef 1 has begun to sink order 137 (Recipe 5).
+Chef 3 has begun to prep order 136 (Recipe 4).
+Order 198 (Recipe 4) has shipped.
+Order 139 (Recipe 5) has arrived.
+Chef 1 has begun to prep order 139 (Recipe 5).
+Chef 3 has begun to sink order 136 (Recipe 4).
+Chef 1 has begun to oven order 139 (Recipe 5).
+Chef 2 has begun to prep order 138 (Recipe 4).
+Chef 1 has begun to sink order 139 (Recipe 5).
+Order 199 (Recipe 2) has shipped.
+Order 140 (Recipe 3) has arrived.
+Chef 3 has begun to prep order 140 (Recipe 3).
+Chef 1 has begun to prep order 139 (Recipe 5).
+Chef 1 has begun to oven order 139 (Recipe 5).
+Chef 2 has begun to sink order 138 (Recipe 4).
+Chef 1 has begun to sink order 139 (Recipe 5).
+Order 200 (Recipe 3) has shipped.
+Chef 3 has begun to oven order 140 (Recipe 3).
+Order 141 (Recipe 4) has arrived.
+Chef 2 has begun to oven order 141 (Recipe 4).
+Order 142 (Recipe 3) has arrived.
+Chef 1 has begun to prep order 142 (Recipe 3).
+Chef 3 has begun to sink order 140 (Recipe 3).
+Order 143 (Recipe 2) has arrived.
+Chef 3 has begun to prep order 143 (Recipe 2).
+Chef 2 has begun to prep order 141 (Recipe 4).
+Chef 3 has begun to stove order 143 (Recipe 2).
+Chef 1 has begun to oven order 142 (Recipe 3).
+Chef 3 has begun to sink order 143 (Recipe 2).
+Chef 2 has begun to sink order 141 (Recipe 4).
+Chef 1 has begun to sink order 142 (Recipe 3).
+Order 144 (Recipe 1) has arrived.
+Chef 2 has begun to prep order 144 (Recipe 1).
+Order 145 (Recipe 3) has arrived.
+Chef 1 has begun to prep order 145 (Recipe 3).
+Chef 2 has begun to stove order 144 (Recipe 1).
+Order 146 (Recipe 4) has arrived.
+Chef 3 has begun to oven order 146 (Recipe 4).
+Chef 2 has begun to sink order 144 (Recipe 1).
+Chef 1 has begun to oven order 145 (Recipe 3).
+Chef 2 has begun to prep order 144 (Recipe 1).
+Chef 1 has begun to sink order 145 (Recipe 3).
+Chef 2 has begun to oven order 144 (Recipe 1).
+Order 147 (Recipe 3) has arrived.
+Chef 1 has begun to prep order 147 (Recipe 3).
+Chef 2 has begun to sink order 144 (Recipe 1).
+Chef 3 has begun to prep order 146 (Recipe 4).
+Chef 3 has begun to sink order 146 (Recipe 4).
+Chef 1 has begun to oven order 147 (Recipe 3).
+Order 148 (Recipe 1) has arrived.
+Chef 3 has begun to prep order 148 (Recipe 1).
+Order 149 (Recipe 5) has arrived.
+Chef 2 has begun to prep order 149 (Recipe 5).
+Chef 1 has begun to sink order 147 (Recipe 3).
+Chef 2 has begun to oven order 149 (Recipe 5).
+Chef 3 has begun to stove order 148 (Recipe 1).
+Chef 2 has begun to sink order 149 (Recipe 5).
+Chef 3 has begun to sink order 148 (Recipe 1).
+Chef 2 has begun to prep order 149 (Recipe 5).
+Order 150 (Recipe 3) has arrived.
+Chef 1 has begun to prep order 150 (Recipe 3).
+Chef 3 has begun to prep order 148 (Recipe 1).
+Chef 2 has begun to oven order 149 (Recipe 5).
+Chef 3 has begun to oven order 148 (Recipe 1).
+Chef 2 has begun to sink order 149 (Recipe 5).
+Chef 3 has begun to sink order 148 (Recipe 1).
+Chef 1 has begun to oven order 150 (Recipe 3).
+Order 151 (Recipe 5) has arrived.
+Chef 2 has begun to prep order 151 (Recipe 5).
+Chef 2 has begun to oven order 151 (Recipe 5).
+Chef 1 has begun to sink order 150 (Recipe 3).
+Chef 2 has begun to sink order 151 (Recipe 5).
+Order 152 (Recipe 1) has arrived.
+Chef 3 has begun to prep order 152 (Recipe 1).
+Order 153 (Recipe 4) has arrived.
+Chef 1 has begun to oven order 153 (Recipe 4).
+Chef 2 has begun to prep order 151 (Recipe 5).
+Chef 3 has begun to stove order 152 (Recipe 1).
+Chef 2 has begun to oven order 151 (Recipe 5).
+Chef 3 has begun to sink order 152 (Recipe 1).
+Chef 3 has begun to prep order 152 (Recipe 1).
+Chef 2 has begun to sink order 151 (Recipe 5).
+Chef 3 has begun to oven order 152 (Recipe 1).
+Order 154 (Recipe 1) has arrived.
+Chef 2 has begun to prep order 154 (Recipe 1).
+Chef 1 has begun to prep order 153 (Recipe 4).
+Chef 2 has begun to stove order 154 (Recipe 1).
+Chef 3 has begun to sink order 152 (Recipe 1).
+Chef 1 has begun to sink order 153 (Recipe 4).
+Chef 2 has begun to sink order 154 (Recipe 1).
+Chef 2 has begun to prep order 154 (Recipe 1).
+Order 155 (Recipe 5) has arrived.
+Chef 1 has begun to prep order 155 (Recipe 5).
+Chef 2 has begun to oven order 154 (Recipe 1).
+Chef 1 has begun to oven order 155 (Recipe 5).
+Order 156 (Recipe 2) has arrived.
+Chef 3 has begun to prep order 156 (Recipe 2).
+Chef 1 has begun to sink order 155 (Recipe 5).
+Chef 2 has begun to sink order 154 (Recipe 1).
+Chef 3 has begun to stove order 156 (Recipe 2).
+Chef 1 has begun to prep order 155 (Recipe 5).
+Chef 1 has begun to oven order 155 (Recipe 5).
+Chef 3 has begun to sink order 156 (Recipe 2).
+Chef 1 has begun to sink order 155 (Recipe 5).
+Order 157 (Recipe 4) has arrived.
+Chef 2 has begun to oven order 157 (Recipe 4).
+Order 158 (Recipe 1) has arrived.
+Chef 1 has begun to prep order 158 (Recipe 1).
+Chef 1 has begun to stove order 158 (Recipe 1).
+Order 159 (Recipe 2) has arrived.
+Chef 3 has begun to prep order 159 (Recipe 2).
+Chef 1 has begun to sink order 158 (Recipe 1).
+Chef 1 has begun to prep order 158 (Recipe 1).
+Chef 1 has begun to oven order 158 (Recipe 1).
+Chef 3 has begun to stove order 159 (Recipe 2).
+Chef 2 has begun to prep order 157 (Recipe 4).
+Chef 3 has begun to sink order 159 (Recipe 2).
+Chef 1 has begun to sink order 158 (Recipe 1).
+Chef 2 has begun to sink order 157 (Recipe 4).
+Order 160 (Recipe 5) has arrived.
+Chef 2 has begun to prep order 160 (Recipe 5).
+Chef 2 has begun to oven order 160 (Recipe 5).
+Order 161 (Recipe 1) has arrived.
+Chef 1 has begun to prep order 161 (Recipe 1).
+Chef 2 has begun to sink order 160 (Recipe 5).
+Chef 2 has begun to prep order 160 (Recipe 5).
+Order 162 (Recipe 5) has arrived.
+Chef 3 has begun to prep order 162 (Recipe 5).
+Chef 1 has begun to stove order 161 (Recipe 1).
+Chef 3 has begun to oven order 162 (Recipe 5).
+Chef 2 has begun to oven order 160 (Recipe 5).
+Chef 1 has begun to sink order 161 (Recipe 1).
+Chef 3 has begun to sink order 162 (Recipe 5).
+Chef 2 has begun to sink order 160 (Recipe 5).
+Chef 1 has begun to prep order 161 (Recipe 1).
+Chef 3 has begun to prep order 162 (Recipe 5).
+Chef 1 has begun to oven order 161 (Recipe 1).
+Order 163 (Recipe 3) has arrived.
+Chef 2 has begun to prep order 163 (Recipe 3).
+Chef 1 has begun to sink order 161 (Recipe 1).
+Chef 2 has begun to oven order 163 (Recipe 3).
+Chef 3 has begun to oven order 162 (Recipe 5).
+Chef 3 has begun to sink order 162 (Recipe 5).
+Order 164 (Recipe 1) has arrived.
+Chef 1 has begun to prep order 164 (Recipe 1).
+Chef 2 has begun to sink order 163 (Recipe 3).
+Order 165 (Recipe 1) has arrived.
+Chef 3 has begun to prep order 165 (Recipe 1).
+Chef 1 has begun to stove order 164 (Recipe 1).
+Order 166 (Recipe 4) has arrived.
+Chef 2 has begun to oven order 166 (Recipe 4).
+Chef 3 has begun to stove order 165 (Recipe 1).
+Chef 1 has begun to sink order 164 (Recipe 1).
+Chef 3 has begun to sink order 165 (Recipe 1).
+Chef 1 has begun to prep order 164 (Recipe 1).
+Chef 1 has begun to oven order 164 (Recipe 1).
+Chef 3 has begun to prep order 165 (Recipe 1).
+Chef 3 has begun to oven order 165 (Recipe 1).
+Chef 1 has begun to sink order 164 (Recipe 1).
+Chef 2 has begun to prep order 166 (Recipe 4).
+Chef 3 has begun to sink order 165 (Recipe 1).
+Chef 2 has begun to sink order 166 (Recipe 4).
+Order 167 (Recipe 4) has arrived.
+Chef 2 has begun to oven order 167 (Recipe 4).
+Order 168 (Recipe 5) has arrived.
+Chef 1 has begun to prep order 168 (Recipe 5).
+Order 169 (Recipe 4) has arrived.
+Chef 3 has begun to oven order 169 (Recipe 4).
+Chef 1 has begun to oven order 168 (Recipe 5).
+Chef 1 has begun to sink order 168 (Recipe 5).
+Chef 1 has begun to prep order 168 (Recipe 5).
+Chef 2 has begun to prep order 167 (Recipe 4).
+Chef 1 has begun to oven order 168 (Recipe 5).
+Chef 1 has begun to sink order 168 (Recipe 5).
+Chef 2 has begun to sink order 167 (Recipe 4).
+Chef 3 has begun to prep order 169 (Recipe 4).
+Order 170 (Recipe 1) has arrived.
+Chef 2 has begun to prep order 170 (Recipe 1).
+Order 171 (Recipe 5) has arrived.
+Chef 1 has begun to prep order 171 (Recipe 5).
+Chef 3 has begun to sink order 169 (Recipe 4).
+Chef 1 has begun to oven order 171 (Recipe 5).
+Chef 2 has begun to stove order 170 (Recipe 1).
+Chef 1 has begun to sink order 171 (Recipe 5).
+Order 172 (Recipe 2) has arrived.
+Chef 3 has begun to prep order 172 (Recipe 2).
+Chef 2 has begun to sink order 170 (Recipe 1).
+Chef 1 has begun to prep order 171 (Recipe 5).
+Chef 1 has begun to oven order 171 (Recipe 5).
+Chef 2 has begun to prep order 170 (Recipe 1).
+Chef 3 has begun to stove order 172 (Recipe 2).
+Chef 2 has begun to oven order 170 (Recipe 1).
+Chef 1 has begun to sink order 171 (Recipe 5).
+Chef 3 has begun to sink order 172 (Recipe 2).
+Order 173 (Recipe 5) has arrived.
+Chef 1 has begun to prep order 173 (Recipe 5).
+Chef 2 has begun to sink order 170 (Recipe 1).
+Chef 1 has begun to oven order 173 (Recipe 5).
+Chef 1 has begun to sink order 173 (Recipe 5).
+Chef 1 has begun to prep order 173 (Recipe 5).
+Order 174 (Recipe 1) has arrived.
+Chef 2 has begun to prep order 174 (Recipe 1).
+Chef 1 has begun to oven order 173 (Recipe 5).
+Order 175 (Recipe 4) has arrived.
+Chef 3 has begun to oven order 175 (Recipe 4).
+Chef 2 has begun to stove order 174 (Recipe 1).
+Chef 1 has begun to sink order 173 (Recipe 5).
+Order 176 (Recipe 2) has arrived.
+Chef 1 has begun to prep order 176 (Recipe 2).
+Chef 2 has begun to sink order 174 (Recipe 1).
+Chef 2 has begun to prep order 174 (Recipe 1).
+Chef 2 has begun to oven order 174 (Recipe 1).
+Chef 1 has begun to stove order 176 (Recipe 2).
+Chef 3 has begun to prep order 175 (Recipe 4).
+Chef 1 has begun to sink order 176 (Recipe 2).
+Chef 2 has begun to sink order 174 (Recipe 1).
+Chef 3 has begun to sink order 175 (Recipe 4).
+Order 177 (Recipe 4) has arrived.
+Chef 3 has begun to oven order 177 (Recipe 4).
+Order 178 (Recipe 3) has arrived.
+Chef 2 has begun to prep order 178 (Recipe 3).
+Order 179 (Recipe 3) has arrived.
+Chef 1 has begun to prep order 179 (Recipe 3).
+Chef 2 has begun to oven order 178 (Recipe 3).
+Chef 3 has begun to prep order 177 (Recipe 4).
+Chef 1 has begun to oven order 179 (Recipe 3).
+Chef 2 has begun to sink order 178 (Recipe 3).
+Chef 3 has begun to sink order 177 (Recipe 4).
+Chef 1 has begun to sink order 179 (Recipe 3).
+Order 180 (Recipe 1) has arrived.
+Chef 2 has begun to prep order 180 (Recipe 1).
+Order 181 (Recipe 5) has arrived.
+Chef 3 has begun to prep order 181 (Recipe 5).
+Chef 2 has begun to stove order 180 (Recipe 1).
+Order 182 (Recipe 1) has arrived.
+Chef 1 has begun to prep order 182 (Recipe 1).
+Chef 3 has begun to oven order 181 (Recipe 5).
+Chef 1 has begun to stove order 182 (Recipe 1).
+Chef 2 has begun to sink order 180 (Recipe 1).
+Chef 3 has begun to sink order 181 (Recipe 5).
+Chef 2 has begun to prep order 180 (Recipe 1).
+Chef 1 has begun to sink order 182 (Recipe 1).
+Chef 3 has begun to prep order 181 (Recipe 5).
+Chef 2 has begun to oven order 180 (Recipe 1).
+Chef 1 has begun to prep order 182 (Recipe 1).
+Chef 3 has begun to oven order 181 (Recipe 5).
+Chef 1 has begun to oven order 182 (Recipe 1).
+Chef 2 has begun to sink order 180 (Recipe 1).
+Chef 3 has begun to sink order 181 (Recipe 5).
+Chef 1 has begun to sink order 182 (Recipe 1).
+Order 183 (Recipe 2) has arrived.
+Chef 3 has begun to prep order 183 (Recipe 2).
+Chef 3 has begun to stove order 183 (Recipe 2).
+Order 184 (Recipe 5) has arrived.
+Chef 2 has begun to prep order 184 (Recipe 5).
+Chef 2 has begun to oven order 184 (Recipe 5).
+Order 185 (Recipe 1) has arrived.
+Chef 1 has begun to prep order 185 (Recipe 1).
+Chef 3 has begun to sink order 183 (Recipe 2).
+Chef 2 has begun to sink order 184 (Recipe 5).
+Chef 1 has begun to stove order 185 (Recipe 1).
+Chef 2 has begun to prep order 184 (Recipe 5).
+Chef 1 has begun to sink order 185 (Recipe 1).
+Chef 2 has begun to oven order 184 (Recipe 5).
+Chef 1 has begun to prep order 185 (Recipe 1).
+Chef 2 has begun to sink order 184 (Recipe 5).
+Chef 1 has begun to oven order 185 (Recipe 1).
+Order 186 (Recipe 2) has arrived.
+Chef 3 has begun to prep order 186 (Recipe 2).
+Order 187 (Recipe 2) has arrived.
+Chef 2 has begun to prep order 187 (Recipe 2).
+Chef 1 has begun to sink order 185 (Recipe 1).
+Chef 3 has begun to stove order 186 (Recipe 2).
+Chef 2 has begun to stove order 187 (Recipe 2).
+Chef 3 has begun to sink order 186 (Recipe 2).
+Chef 2 has begun to sink order 187 (Recipe 2).
+Order 188 (Recipe 1) has arrived.
+Chef 1 has begun to prep order 188 (Recipe 1).
+Chef 1 has begun to stove order 188 (Recipe 1).
+Chef 1 has begun to sink order 188 (Recipe 1).
+Chef 1 has begun to prep order 188 (Recipe 1).
+Order 189 (Recipe 3) has arrived.
+Chef 3 has begun to prep order 189 (Recipe 3).
+Order 190 (Recipe 5) has arrived.
+Chef 2 has begun to prep order 190 (Recipe 5).
+Chef 1 has begun to oven order 188 (Recipe 1).
+Chef 2 has begun to oven order 190 (Recipe 5).
+Chef 2 has begun to sink order 190 (Recipe 5).
+Chef 1 has begun to sink order 188 (Recipe 1).
+Chef 2 has begun to prep order 190 (Recipe 5).
+Chef 2 has begun to oven order 190 (Recipe 5).
+Chef 3 has begun to oven order 189 (Recipe 3).
+Chef 2 has begun to sink order 190 (Recipe 5).
+Chef 3 has begun to sink order 189 (Recipe 3).
+Order 191 (Recipe 5) has arrived.
+Chef 1 has begun to prep order 191 (Recipe 5).
+Chef 1 has begun to oven order 191 (Recipe 5).
+Order 192 (Recipe 5) has arrived.
+Chef 2 has begun to prep order 192 (Recipe 5).
+Order 193 (Recipe 4) has arrived.
+Chef 3 has begun to oven order 193 (Recipe 4).
+Chef 2 has begun to oven order 192 (Recipe 5).
+Chef 1 has begun to sink order 191 (Recipe 5).
+Chef 2 has begun to sink order 192 (Recipe 5).
+Chef 1 has begun to prep order 191 (Recipe 5).
+Chef 2 has begun to prep order 192 (Recipe 5).
+Chef 1 has begun to oven order 191 (Recipe 5).
+Chef 2 has begun to oven order 192 (Recipe 5).
+Chef 1 has begun to sink order 191 (Recipe 5).
+Chef 2 has begun to sink order 192 (Recipe 5).
+Order 194 (Recipe 4) has arrived.
+Chef 1 has begun to oven order 194 (Recipe 4).
+Chef 3 has begun to prep order 193 (Recipe 4).
+Order 195 (Recipe 3) has arrived.
+Chef 2 has begun to prep order 195 (Recipe 3).
+Chef 3 has begun to sink order 193 (Recipe 4).
+Order 196 (Recipe 1) has arrived.
+Chef 3 has begun to prep order 196 (Recipe 1).
+Chef 3 has begun to stove order 196 (Recipe 1).
+Chef 1 has begun to prep order 194 (Recipe 4).
+Chef 2 has begun to oven order 195 (Recipe 3).
+Chef 3 has begun to sink order 196 (Recipe 1).
+Chef 1 has begun to sink order 194 (Recipe 4).
+Chef 2 has begun to sink order 195 (Recipe 3).
+Chef 3 has begun to prep order 196 (Recipe 1).
+Order 197 (Recipe 4) has arrived.
+Chef 1 has begun to oven order 197 (Recipe 4).
+Chef 3 has begun to oven order 196 (Recipe 1).
+Order 198 (Recipe 1) has arrived.
+Chef 2 has begun to prep order 198 (Recipe 1).
+Chef 3 has begun to sink order 196 (Recipe 1).
+Chef 2 has begun to stove order 198 (Recipe 1).
+Chef 2 has begun to sink order 198 (Recipe 1).
+Chef 2 has begun to prep order 198 (Recipe 1).
+Chef 1 has begun to prep order 197 (Recipe 4).
+Order 199 (Recipe 3) has arrived.
+Chef 3 has begun to prep order 199 (Recipe 3).
+Chef 2 has begun to oven order 198 (Recipe 1).
+Chef 1 has begun to sink order 197 (Recipe 4).
+Chef 2 has begun to sink order 198 (Recipe 1).
+Order 200 (Recipe 5) has arrived.
+Chef 1 has begun to prep order 200 (Recipe 5).
+Chef 1 has begun to oven order 200 (Recipe 5).
+Chef 3 has begun to oven order 199 (Recipe 3).
+Chef 1 has begun to sink order 200 (Recipe 5).
+Chef 3 has begun to sink order 199 (Recipe 3).
+Chef 1 has begun to prep order 200 (Recipe 5).
+Chef 1 has begun to oven order 200 (Recipe 5).
+Chef 1 has begun to sink order 200 (Recipe 5).
+q
+Chef 0 get off work.
+Chef 1 get off work.
+Chef 2 get off work.

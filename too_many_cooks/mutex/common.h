@@ -1,8 +1,15 @@
+// Terminal color code
+#define ANSI_COLOR_RED     "\x1b[31m"
+#define ANSI_COLOR_GREEN   "\x1b[32m"
+#define ANSI_COLOR_YELLOW  "\x1b[33m"
+#define ANSI_COLOR_BLUE    "\x1b[34m"
+#define ANSI_COLOR_MAGENTA "\x1b[35m"
+#define ANSI_COLOR_CYAN    "\x1b[36m"
+#define ANSI_COLOR_RESET   "\x1b[0m"
+
 #define NUM_RECIPES 5
-#define NUM_ORDERS 5
+#define MAX_ORDERS 2000
 #define MAX_STAGES 6
-#define MAX_TIME 10000000
-#define ONE_SECOND 1000000
 
 #define NUM_STATIONS 4
 #define NUM_CHEFS 3

@@ -5,7 +5,7 @@
 #include <unistd.h>
 
 pthread_mutex_t mutex;
-pthread_cond_t cond_cust, cond_chefs;
+pthread_cond_t cond_cust, cond_orders, cond_kitchens;
 int kitchen[NUM_STATIONS];
 pthread_t p_chefs[NUM_CHEFS];
 
@@ -15,8 +15,12 @@ int order_start_i;
 int ordering;
 int closed;
 int num_worker_off;
-int orders[NUM_ORDERS];
+int orders[MAX_ORDERS];
 int *chef_num[NUM_CHEFS];
+int quit;
+int shiptime;
+int cooktime;
+int numorders;
 
 struct recipe recipes[NUM_RECIPES];
 
@@ -29,18 +33,21 @@ void *customer(void *ptr) {
   order_end_i = 0;
   order_start_i = 0;
 
-  for (i = 0; i < NUM_ORDERS; i++) {
+  for (i = 0; i < numorders; i++) {
     recipe_type = random() % NUM_RECIPES;
     pthread_mutex_lock(&mutex);
     order_end_i++;
     orders[order_end_i] = recipe_type;
+    printf("%sOrder %d (Recipe %d) has shipped. %s\n", ANSI_COLOR_YELLOW, i + 1, recipe_type + 1, ANSI_COLOR_RESET);
     pthread_mutex_unlock(&mutex);
-    pthread_cond_broadcast(&cond_chefs);
-    ms = random() % MAX_TIME;
+    pthread_cond_broadcast(&cond_orders);
+    ms = random() % shiptime;
     usleep(ms);
   }
 
+  pthread_mutex_lock(&mutex);
   ordering = 0;
+  pthread_mutex_unlock(&mutex);
   pthread_exit(0);
 }
 
@@ -54,27 +61,26 @@ void *chef(void *ptr) {
   struct recipe rp;
   id = *((int *)ptr);
 
-  printf("Chef %d get to work.\n", id + 1);
+  printf(ANSI_COLOR_CYAN "Chef %d get to work.\n" ANSI_COLOR_RESET, id + 1);
   while (1) {
     i = 0;
 
     pthread_mutex_lock(&mutex);
 
     while (order_end_i - order_start_i <= 0)
-      pthread_cond_wait(&cond_chefs, &mutex);
+      pthread_cond_wait(&cond_orders, &mutex);
 
     rp_type = orders[start];
-    printf("Order %d (Recipe %d) has arrived.\n", start + 1, rp_type + 1);
-
     rp = recipes[rp_type];
     start = order_start_i;
+    printf(ANSI_COLOR_GREEN "Order %d (Recipe %d) has arrived.\n" ANSI_COLOR_RESET, start + 1, rp_type + 1);
     order_start_i++;
     pthread_mutex_unlock(&mutex);
 
     for (i = 0; i < rp.num_stages; i++) {
       pthread_mutex_lock(&mutex);
       while (kitchen[st.type] == 1)
-        pthread_cond_wait(&cond_chefs, &mutex);
+        pthread_cond_wait(&cond_kitchens, &mutex);
 
       st = rp.stages[i];
       kitchen[st.type] = 1;
@@ -82,13 +88,18 @@ void *chef(void *ptr) {
              station_names[st.type], start + 1, rp_type + 1);
       pthread_mutex_unlock(&mutex);
 
-      usleep(st.time * ONE_SECOND);
+      usleep(st.time * cooktime);
       pthread_mutex_lock(&mutex);
       kitchen[st.type] = 0;
       pthread_mutex_unlock(&mutex);
-      pthread_cond_broadcast(&cond_chefs);
+      pthread_cond_broadcast(&cond_kitchens);
     }
   }
+
+  pthread_mutex_lock(&mutex);
+
+  pthread_mutex_unlock(&mutex);
+
   pthread_exit(0);
 }
 
@@ -203,7 +214,7 @@ void get_off_work() {
   for (i = 0; i < NUM_CHEFS; i++) {
     pthread_cancel(p_chefs[i]);
     free(chef_num[i]);
-    printf("Chef %d get off work.\n", i);
+    printf(ANSI_COLOR_CYAN "Chef %d get off work.\n" ANSI_COLOR_RESET, i);
   }
 }
 
@@ -218,31 +229,43 @@ void init_kitchen() {
   station_names[STATION_STOVE] = STATION_NAME_STOVE;
   station_names[STATION_OVEN] = STATION_NAME_OVEN;
   station_names[STATION_PREP] = STATION_NAME_PREP;
-  station_names[STATION_SINK] = STATION_NAME_STOVE;
+  station_names[STATION_SINK] = STATION_NAME_SINK;
 }
 
 int main(int argc, char *argv[]) {
   char cmd;
   pthread_t cust;
+  int seed;
 
-  puts("Press q to exit");
+  if(argc > 3) {
+    numorders = atoi(argv[1]);
+    shiptime = atoi(argv[2]);
+    cooktime = atoi(argv[3]);
 
-  closed = 0;
-  num_worker_off = 0;
+    while (1) {
+      puts(ANSI_COLOR_BLUE "Press [q] to abort" ANSI_COLOR_RESET);
+      closed = 0;
+      num_worker_off = 0;
+      seed = time(NULL);
+      srand(seed);
 
-  init_recipes();
-  init_kitchen();
-  pthread_mutex_init(&mutex, 0);
-  get_to_work();
-  ordering = 1;
-  pthread_create(&cust, 0, customer, 0);
-  pthread_detach(cust);
-  while (1) {
-    scanf("%c", &cmd);
-    if (cmd == 'q' && !ordering) {
-      get_off_work();
-      exit(0);
+      init_recipes();
+      init_kitchen();
+      pthread_mutex_init(&mutex, 0);
+      get_to_work();
+      ordering = 1;
+      pthread_create(&cust, 0, customer, 0);
+      pthread_detach(cust);
+      while (1) {
+        scanf("%c", &cmd);
+        if (cmd == 'q' && !ordering) {
+          get_off_work();
+          exit(0);
+        }
+      }
+      pthread_mutex_destroy(&mutex);
     }
+  } else {
+    puts("Usage: ./mutex_cv numorders shiptime cooktime");
   }
-  pthread_mutex_destroy(&mutex);
 }
