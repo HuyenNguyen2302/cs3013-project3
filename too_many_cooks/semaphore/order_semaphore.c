@@ -1,43 +1,57 @@
 #include "order_semaphore.h"
 
+// TODO: create order count + mutex + automate thread
+
+
 int main(int argc, char *argv[]) {
 
 	// get number of orders from user
 	if (argc != 2) {
 		printf("Usage: ./order_semaphore [number_of_orders]\n");
 		return 1;
-	} else {
-
-		int number_of_orders = atoi(argv[1]);
-		int i, j;
-
-
-		init_recipe();
-		init_sem();
-		init_chef();
-
-
-		
-		srand(time(NULL));
-		for (i = 0; i < number_of_orders; i++) {
-			int recipe = (rand() % ORDER_OPTION);
-			printf("Order %d (recipe %d) has arrived.\n", i + 1, recipe + 1);
-			for (j = 0; j < CHEF_NUM; j++) {
-				if (state[j] == FREE) {
-					printf("Chef %d has begun to prepare Order %d (recipe %d)\n", j + 1, i + 1, recipe + 1);
-					work(j, recipe);	
-					state[j] = FREE;
-					break;			
-				}				
-			}
-		}
-
-		for (i = 0; i < CHEF_NUM; i++)
-			pthread_join(tid[i], NULL);
-
-		printf("CONGRATS! All orders have been processed! All threads have terminated.\n");
-		return 0;
 	}
+
+	if (atoi(argv[1]) > MAX_ORDER) {
+		printf("Sorry. Can only process at most %d orders", MAX_ORDER);
+		return 1;
+	}
+
+	number_of_orders = atoi(argv[1]);
+	int i, j;
+	int index = 0; 
+
+
+	init_recipe();
+	init_sem();
+
+	init_chef();
+
+	
+	
+	srand(time(NULL));
+
+	// randomly generate an order 
+	// and push it to the orders array
+	for (i = 0; i < number_of_orders; i++) {
+		Order new_order;
+		new_order.recipe_num = rand() % ORDER_OPTION;
+		orders[index] = new_order;
+		printf("Order %d (recipe %d) has arrived.\n", i, new_order.recipe_num);
+	}
+
+	// trying to keep the main thread alive...
+	while (current_order_num != number_of_orders) {
+		// printf("\tNOT DONE. There are orders to be processed.\n");
+	}
+	
+	// wait for all the chef threads to terminate
+	for (i = 0; i < CHEF_NUM; i++) {
+		pthread_join(tid[i], NULL);
+	}
+
+	// DONE! :D
+	printf("CONGRATS! All orders have been processed! All threads have terminated.\n");
+	return 0;
 }
 
 void work(int chef, int recipe) {
@@ -86,19 +100,46 @@ void enter_sink(int chef, int recipe, int step_duration) {
 	sem_post(&sem_sink);
 }
 
-void *create_chef(void *agrv) {
+sem_t done;
+
+void *create_chef(void *arg) {
 	// struct thread_info *tinfo = argv;
 	// printf("Thread %d is created.\n", tinfo -> thread_num);
-	printf("A chef is created.\n");
+	// 
+	thread_info *tinfo = arg;
+	printf("Chef %d is created.\n", tinfo -> chef);
+	int chef = tinfo -> chef;
+	if (chef == 1) sem_post(&sem_chef1);
+	if (chef == 2) sem_post(&sem_chef2);
+	if (chef == 3) sem_post(&sem_chef3);
+	
 	return NULL;
 }
 
 void init_chef() {
 	int i;
+	thread_info *tinfo;
+	sem_init(&sem_chef1, 0, 0);
+	sem_init(&sem_chef2, 0, 0);
+	sem_init(&sem_chef3, 0, 0);
 	for (i = 0; i < CHEF_NUM; i++) {
-		state[i] = FREE;
-		pthread_create(&tid[i], NULL, create_chef, NULL);
+		tinfo = calloc(CHEF_NUM, sizeof(thread_info));
+		tinfo[i].chef = i;
+		// printf("i====%d\n", i);
+		tinfo[i].order_num = current_order_num;
+		tinfo[i].recipe_num = 5;
+		// tinfo -> recipe_num = orders[current_order_num].recipe_num;
+		// printf("Chef %d is created.\n", i);
+		current_station[i] = FREE;
+		pthread_create(&tid[i], NULL, create_chef, &tinfo[i]);		
+		if (i == 1) sem_wait(&sem_chef1);
+		if (i == 2) sem_wait(&sem_chef2);
+		if (i == 3) sem_wait(&sem_chef3);		
 	}
+	
+	free(tinfo);
+	printf("freed chefs.\n");
+	
 }
 
 void init_recipe() {
@@ -120,20 +161,20 @@ void init_recipe() {
 	// init recipe2
 	recipe2.step_num = 3;
 	recipe2.step[0] = PREP;			recipe2.duration[0] = 10;
-	recipe2.step[1] = OVEN;		  recipe2.duration[1] = 5;
+	recipe2.step[1] = OVEN;		  	recipe2.duration[1] = 5;
 	recipe2.step[2] = SINK;			recipe2.duration[2] = 5;
 
 
 	// init recipe3
 	recipe3.step_num = 3;
 	recipe3.step[0] = OVEN;			recipe3.duration[0] = 15;
-	recipe3.step[1] = PREP;		  recipe3.duration[1] = 5;
+	recipe3.step[1] = PREP;		  	recipe3.duration[1] = 5;
 	recipe3.step[2] = SINK;			recipe3.duration[2] = 4;
 
 	// init recipe4
 	recipe4.step_num = 6;
 	recipe4.step[0] = PREP;			recipe4.duration[0] = 2;
-	recipe4.step[1] = OVEN;		  recipe4.duration[1] = 3;
+	recipe4.step[1] = OVEN;		  	recipe4.duration[1] = 3;
 	recipe4.step[2] = SINK;			recipe4.duration[2] = 2;
 	recipe4.step[3] = PREP;			recipe4.duration[3] = 2;
 	recipe4.step[4] = OVEN;			recipe4.duration[4] = 3;
@@ -145,6 +186,8 @@ void init_recipe() {
 	recipes[2] = recipe2;
 	recipes[3] = recipe3;
 	recipes[4] = recipe4;
+
+	printf("Finished init_recipe()\n");
 }
 
 void init_sem() {
@@ -152,4 +195,6 @@ void init_sem() {
 	sem_init(&sem_stove, 0, 0);
 	sem_init(&sem_oven, 0, 0);
 	sem_init(&sem_sink, 0, 0);
+	sem_init(&sem_init_chef, 0, -1);
+	printf("Finished init_sem()\n");
 }
