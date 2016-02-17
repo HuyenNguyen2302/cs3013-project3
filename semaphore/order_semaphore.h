@@ -54,18 +54,23 @@ int current_station[CHEF_NUM]; 		// keep track of the current station of each ch
 int next_station[CHEF_NUM]; 			// keep track of the next station of each chef
 Order orders[MAX_ORDER];
 int number_of_orders;
-int current_order_num = 0;
+
 int all_can_go = FALSE; 
 int longest_step = 0; 						// longest time among the steps the chefs are currently taking
-pthread_t tid[CHEF_NUM]; 					// array of thread IDs
+pthread_t tid[CHEF_NUM]; 
+pthread_t process_order, create_order;					// array of thread IDs
 sem_t sem_prep, sem_stove, sem_oven, sem_sink; // 4 binary semaphores for each area
 sem_t sem_init_chef; 									// semaphore for creating chefs
 sem_t sem_chef1, sem_chef2, sem_chef3; 				// control when each thread can continue running
-
+int current_order_num = 0;
+sem_t sem_created_order, sem_processed_order;
+sem_t sem_create_chef;
+sem_t sem_current_order_num;
 
 // function prototypes
 void init_recipe();
-void init_chef();
+void *init_chef(void *arg);
+void *init_order(void *arg);
 void work(int chef, int recipe);
 void enter_prep(int chef, int recipe, int step_duration);
 void enter_stove(int chef, int recipe, int step_duration);
