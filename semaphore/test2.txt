@@ -1,0 +1,319 @@
+// Result from running ./order_semaphore 50
+
+Finished init_recipe()
+Finished init_sem()
+Order 0 (recipe 4) has arrived.
+Order 1 (recipe 3) has arrived.
+Order 2 (recipe 1) has arrived.
+Order 3 (recipe 4) has arrived.
+Order 4 (recipe 3) has arrived.
+Order 5 (recipe 3) has arrived.
+Order 6 (recipe 2) has arrived.
+Order 7 (recipe 1) has arrived.
+Order 8 (recipe 4) has arrived.
+Order 9 (recipe 1) has arrived.
+Order 10 (recipe 3) has arrived.
+Order 11 (recipe 3) has arrived.
+Order 12 (recipe 1) has arrived.
+Order 13 (recipe 4) has arrived.
+Order 14 (recipe 2) has arrived.
+Order 15 (recipe 3) has arrived.
+Order 16 (recipe 1) has arrived.
+Order 17 (recipe 0) has arrived.
+Order 18 (recipe 2) has arrived.
+Order 19 (recipe 4) has arrived.
+Order 20 (recipe 4) has arrived.
+Order 21 (recipe 3) has arrived.
+Order 22 (recipe 4) has arrived.
+Order 23 (recipe 0) has arrived.
+Order 24 (recipe 3) has arrived.
+Order 25 (recipe 1) has arrived.
+Order 26 (recipe 0) has arrived.
+Order 27 (recipe 4) has arrived.
+Order 28 (recipe 2) has arrived.
+Order 29 (recipe 1) has arrived.
+Order 30 (recipe 3) has arrived.
+Order 31 (recipe 2) has arrived.
+Order 32 (recipe 4) has arrived.
+Order 33 (recipe 1) has arrived.
+Order 34 (recipe 3) has arrived.
+Order 35 (recipe 4) has arrived.
+Order 36 (recipe 4) has arrived.
+Order 37 (recipe 2) has arrived.
+Order 38 (recipe 2) has arrived.
+Order 39 (recipe 1) has arrived.
+Order 40 (recipe 4) has arrived.
+Order 41 (recipe 1) has arrived.
+Order 42 (recipe 1) has arrived.
+Order 43 (recipe 0) has arrived.
+Order 44 (recipe 2) has arrived.
+Order 45 (recipe 3) has arrived.
+Order 46 (recipe 0) has arrived.
+Order 47 (recipe 3) has arrived.
+Order 48 (recipe 0) has arrived.
+Order 49 (recipe 2) has arrived.
+***Chef 2 is processing order 0 (recipe 4)***
+***Chef 1 is processing order 1 (recipe 3)***
+POTENTIAL DEADLOCK AVOIDED BETWEEN CHEF 1 AND CHEF 2!
+***Chef 0 is processing order 2 (recipe 1)***
+Chef 2 is in PREP.
+Chef 1 is in OVEN.
+Chef 2 is in OVEN.
+Chef 1 is in PREP.
+Chef 2 is in SINK.
+Chef 0 is in PREP.
+Chef 2 is in PREP.
+Chef 1 is in SINK.
+***Chef 1 is processing order 3 (recipe 4)***
+Chef 0 is in STOVE.
+Chef 2 is in OVEN.
+Chef 1 is in PREP.
+Chef 0 is in SINK.
+***Chef 0 is processing order 4 (recipe 3)***
+Chef 2 is in SINK.
+***Chef 2 is processing order 5 (recipe 3)***
+Chef 1 is in OVEN.
+Chef 1 is in SINK.
+Chef 0 is in OVEN.
+Chef 2 is in OVEN.
+Chef 1 is in PREP.
+Chef 1 is in OVEN.
+Chef 0 is in PREP.
+Chef 2 is in PREP.
+Chef 1 is in SINK.
+***Chef 1 is processing order 6 (recipe 2)***
+Chef 1 is in PREP.
+Chef 0 is in SINK.
+***Chef 0 is processing order 7 (recipe 1)***
+Chef 2 is in SINK.
+***Chef 2 is processing order 8 (recipe 4)***
+Chef 1 is in OVEN.
+Chef 0 is in PREP.
+Chef 2 is in PREP.
+Chef 1 is in SINK.
+***Chef 1 is processing order 9 (recipe 1)***
+Chef 0 is in STOVE.
+Chef 2 is in OVEN.
+Chef 1 is in PREP.
+Chef 0 is in SINK.
+***Chef 0 is processing order 10 (recipe 3)***
+Chef 2 is in SINK.
+Chef 1 is in STOVE.
+Chef 0 is in OVEN.
+Chef 2 is in PREP.
+Chef 1 is in SINK.
+***Chef 1 is processing order 11 (recipe 3)***
+Chef 2 is in OVEN.
+Chef 0 is in PREP.
+Chef 2 is in SINK.
+***Chef 2 is processing order 12 (recipe 1)***
+Chef 1 is in OVEN.
+Chef 2 is in PREP.
+Chef 0 is in SINK.
+***Chef 0 is processing order 13 (recipe 4)***
+Chef 2 is in STOVE.
+Chef 1 is in PREP.
+Chef 2 is in SINK.
+***Chef 2 is processing order 14 (recipe 2)***
+Chef 0 is in PREP.
+Chef 2 is in PREP.
+Chef 1 is in SINK.
+***Chef 1 is processing order 15 (recipe 3)***
+Chef 0 is in OVEN.
+Chef 2 is in OVEN.
+Chef 0 is in SINK.
+Chef 2 is in SINK.
+***Chef 2 is processing order 16 (recipe 1)***
+Chef 1 is in OVEN.
+Chef 0 is in PREP.
+Chef 2 is in PREP.
+Chef 0 is in OVEN.
+POTENTIAL DEADLOCK AVOIDED BETWEEN CHEF 0 AND CHEF 2!
+Chef 2 is in STOVE.
+Chef 1 is in PREP.
+Chef 0 is in SINK.
+***Chef 0 is processing order 17 (recipe 0)***
+Chef 2 is in SINK.
+***Chef 2 is processing order 18 (recipe 2)***
+Chef 0 is in PREP.
+Chef 2 is in PREP.
+Chef 1 is in SINK.
+***Chef 1 is processing order 19 (recipe 4)***
+Chef 0 is in STOVE.
+Chef 2 is in OVEN.
+Chef 1 is in PREP.
+Chef 0 is in SINK.
+Chef 2 is in SINK.
+***Chef 2 is processing order 20 (recipe 4)***
+Chef 1 is in OVEN.
+Chef 0 is in PREP.
+Chef 2 is in PREP.
+Chef 1 is in SINK.
+Chef 0 is in OVEN.
+POTENTIAL DEADLOCK AVOIDED BETWEEN CHEF 0 AND CHEF 2!
+Chef 2 is in OVEN.
+Chef 1 is in PREP.
+Chef 0 is in SINK.
+***Chef 0 is processing order 21 (recipe 3)***
+Chef 2 is in SINK.
+Chef 1 is in OVEN.
+Chef 2 is in PREP.
+Chef 1 is in SINK.
+***Chef 1 is processing order 22 (recipe 4)***
+Chef 0 is in OVEN.
+Chef 2 is in OVEN.
+Chef 1 is in PREP.
+Chef 2 is in SINK.
+***Chef 2 is processing order 23 (recipe 0)***
+Chef 1 is in OVEN.
+Chef 0 is in PREP.
+Chef 2 is in PREP.
+Chef 1 is in SINK.
+Chef 2 is in STOVE.
+Chef 1 is in PREP.
+Chef 0 is in SINK.
+***Chef 0 is processing order 24 (recipe 3)***
+Chef 2 is in SINK.
+Chef 1 is in OVEN.
+Chef 2 is in PREP.
+Chef 1 is in SINK.
+***Chef 1 is processing order 25 (recipe 1)***
+Chef 0 is in OVEN.
+Chef 2 is in OVEN.
+Chef 1 is in PREP.
+Chef 2 is in SINK.
+***Chef 2 is processing order 26 (recipe 0)***
+Chef 1 is in STOVE.
+Chef 0 is in PREP.
+Chef 2 is in PREP.
+Chef 1 is in SINK.
+***Chef 1 is processing order 27 (recipe 4)***
+Chef 2 is in STOVE.
+Chef 1 is in PREP.
+Chef 0 is in SINK.
+***Chef 0 is processing order 28 (recipe 2)***
+Chef 2 is in SINK.
+Chef 1 is in OVEN.
+Chef 0 is in PREP.
+Chef 2 is in PREP.
+Chef 1 is in SINK.
+Chef 0 is in OVEN.
+Chef 2 is in OVEN.
+Chef 1 is in PREP.
+POTENTIAL DEADLOCK AVOIDED BETWEEN CHEF 1 AND CHEF 2!
+Chef 0 is in SINK.
+***Chef 0 is processing order 29 (recipe 1)***
+Chef 2 is in SINK.
+***Chef 2 is processing order 30 (recipe 3)***
+Chef 1 is in OVEN.
+Chef 0 is in PREP.
+POTENTIAL DEADLOCK AVOIDED BETWEEN CHEF 0 AND CHEF 1!
+Chef 2 is in OVEN.
+Chef 1 is in SINK.
+***Chef 1 is processing order 31 (recipe 2)***
+Chef 0 is in STOVE.
+Chef 2 is in PREP.
+Chef 0 is in SINK.
+***Chef 0 is processing order 32 (recipe 4)***
+Chef 2 is in SINK.
+***Chef 2 is processing order 33 (recipe 1)***
+Chef 1 is in PREP.
+POTENTIAL DEADLOCK AVOIDED BETWEEN CHEF 0 AND CHEF 2!
+Chef 1 is in OVEN.
+Chef 0 is in PREP.
+Chef 2 is in PREP.
+Chef 1 is in SINK.
+***Chef 1 is processing order 34 (recipe 3)***
+Chef 0 is in OVEN.
+Chef 2 is in STOVE.
+Chef 1 is in OVEN.
+Chef 0 is in SINK.
+Chef 2 is in SINK.
+***Chef 2 is processing order 35 (recipe 4)***
+Chef 1 is in PREP.
+Chef 1 is in SINK.
+***Chef 1 is processing order 36 (recipe 4)***
+Chef 0 is in PREP.
+Chef 2 is in PREP.
+Chef 0 is in OVEN.
+Chef 2 is in OVEN.
+Chef 1 is in PREP.
+Chef 0 is in SINK.
+***Chef 0 is processing order 37 (recipe 2)***
+Chef 2 is in SINK.
+Chef 1 is in OVEN.
+Chef 0 is in PREP.
+Chef 2 is in PREP.
+Chef 1 is in SINK.
+Chef 0 is in OVEN.
+Chef 2 is in OVEN.
+Chef 1 is in PREP.
+Chef 0 is in SINK.
+***Chef 0 is processing order 38 (recipe 2)***
+Chef 2 is in SINK.
+***Chef 2 is processing order 39 (recipe 1)***
+Chef 1 is in OVEN.
+Chef 0 is in PREP.
+Chef 2 is in PREP.
+Chef 1 is in SINK.
+***Chef 1 is processing order 40 (recipe 4)***
+Chef 0 is in OVEN.
+Chef 2 is in STOVE.
+Chef 1 is in PREP.
+Chef 0 is in SINK.
+***Chef 0 is processing order 41 (recipe 1)***
+Chef 2 is in SINK.
+***Chef 2 is processing order 42 (recipe 1)***
+Chef 1 is in OVEN.
+Chef 0 is in PREP.
+Chef 2 is in PREP.
+Chef 1 is in SINK.
+Chef 0 is in STOVE.
+Chef 1 is in PREP.
+Chef 2 is in STOVE.
+Chef 0 is in SINK.
+***Chef 0 is processing order 43 (recipe 0)***
+Chef 2 is in SINK.
+***Chef 2 is processing order 44 (recipe 2)***
+Chef 1 is in OVEN.
+Chef 0 is in PREP.
+POTENTIAL DEADLOCK AVOIDED BETWEEN CHEF 0 AND CHEF 1!
+Chef 2 is in PREP.
+Chef 1 is in SINK.
+***Chef 1 is processing order 45 (recipe 3)***
+Chef 0 is in STOVE.
+Chef 2 is in OVEN.
+Chef 0 is in SINK.
+Chef 1 is in OVEN.
+Chef 2 is in SINK.
+***Chef 2 is processing order 46 (recipe 0)***
+Chef 0 is in PREP.
+Chef 1 is in PREP.
+Chef 0 is in OVEN.
+Chef 2 is in PREP.
+Chef 1 is in SINK.
+***Chef 1 is processing order 47 (recipe 3)***
+Chef 1 is in OVEN.
+Chef 2 is in STOVE.
+Chef 0 is in SINK.
+***Chef 0 is processing order 48 (recipe 0)***
+Chef 2 is in SINK.
+Chef 1 is in PREP.
+Chef 1 is in SINK.
+***Chef 1 is processing order 49 (recipe 2)***
+Chef 0 is in PREP.
+Chef 2 is in PREP.
+Chef 0 is in STOVE.
+Chef 2 is in OVEN.
+Chef 1 is in PREP.
+POTENTIAL DEADLOCK AVOIDED BETWEEN CHEF 1 AND CHEF 2!
+Chef 0 is in SINK.
+Chef 2 is in SINK.
+Chef 1 is in OVEN.
+Chef 0 is in PREP.
+Chef 1 is in SINK.
+Chef 0 is in OVEN.
+POTENTIAL DEADLOCK AVOIDED BETWEEN CHEF 0 AND CHEF 2!
+Chef 0 is in SINK.
+done init_chef().
+CONGRATS! All orders have been processed! All threads have terminated.
