@@ -1,0 +1,34 @@
+// Author: Huyen Nguyen
+
+# Semaphore Approach:
+
+WARNING: CS people count from 0, so my chefs are numbered 0, 1, 2, and the same thing happens with the order numbers! Hopefully you don't find this confusing. 
+
+For this problem, I made use of the hint provided in the project specification. In fact, I allow the chefs to look at the other stations to see where the other chefs are and even look at the orders and recipes the other chefs are working on.
+
+I achieve this by maintaining 3 arrays of size 3: current_station, next_station, next_next_station. These arrays contain Work_detail structs, which contain information about the station and how long the chef will stay in that station.
+
+I came up with an algorithm that avoids potential deadlock (described below), and starvation by making the chefs wait for a specified amount of time. 
+
+======================//=====================
+ALGORITHM:
+
+Example: Let's pretend we have 2 chefs for simplicity:
+
+					chef 0 			chef 1
+current_station			1				4
+next_station 			2				3
+next_next_station 		3				2
+
+(Sorry for not using station names, I just work better with numbers...)
+
+A deadlock happens when chef 0 is in station 2, and wants to go station 3. At the same time, chef 1 is in station 2, and wants to go to station 2.
+
+Once this is detected, my algorithm will make chef 0 stay in station 1 (where he/she currently is) longer than usual. The question is how long this should be. Well, the answer is as long as it takes for chef 1 to leave station 2, then chef 0 will be safe to proceed. Now, the solution becomes trivial. I make chef 0 sleep for a total amount of time = time spent in station 1 + time spend in station 3 by chef 1 + time spent in station 2 by chef 1. As a side effect, I update the next_station[chef 0] = 1, and next_next_station[chef 0] = 1 to signifies that chef 0 will keep staying in station 1.  
+
+ ======================//=====================
+ HOW DID I TEST MY PROGRAM?
+
+ I tried with small numbers of orders like 3, 4, 5 to make sure that the algorithm works, and the results are correct.
+
+ For large numbers of orders (even 1000!), all orders are completed successfully. So, I can say my algorithm has successfully avoided all the deadlocks and kept the threads running!
